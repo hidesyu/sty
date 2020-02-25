@@ -8,7 +8,7 @@
     <!-- This is Squarespace. --><!-- fife-robin-f8ft -->
 <base href="">
 <meta charset="utf-8" />
-<title>ZEPPELIN | 最新で最高のアプリをつくろう</title>
+<title>STY | 留学で生まれる最高の出会いを共に</title>
 <link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5b98617e266c07de28ab2aff/1576916526080-SHTCUCX99288FDSFNSPF/ke17ZwdGBToddI8pDm48kL2_L6E64kU1EZfM5fXV-SdZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7XxG-9FZQiNMT_ZdcQnlMXZ8PWCUTZKNe3tLK1racQsE_4Pr9ui6TiZlp10oXe9WHg/favicon.ico"/>
 <link rel="canonical" href="https://www.zeppelin.co.jp"/>
 <meta property="og:site_name" content="ZEPPELIN &#124; 最新で最高のアプリをつくろう"/>
@@ -67,7 +67,7 @@
         })();
     </script>
 
-<meta name="google-site-verification" content="mTjJzGXhqSeMYVUz-ByJBP7hlqouvqOfSWSCaMN2T48" />
+<!-- <meta name="google-site-verification" content="mTjJzGXhqSeMYVUz-ByJBP7hlqouvqOfSWSCaMN2T48" /> -->
 
 <!-- Twitter universal website tag code -->
 <script>
@@ -79,10 +79,6 @@ twq('init','o0g24');
 twq('track','PageView');
 </script>
 <!-- End Twitter universal website tag code -->
-
-
-
-<!-- Global site tag (gtag.js) - Google Ads: 783952435 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-783952435"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-783952435'); </script>
 
 
 <!-- Twitter OPG expands -->
@@ -133,7 +129,9 @@ function gtag_report_conversion(url) {
 		<Attribute name="height" value="130"/>
 	</DataObject>
 </PageMap><script>Static.COOKIE_BANNER_CAPABLE = true;</script>
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-45864015-2', 'auto');ga('send', 'pageview');</script><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.agent='plsquarespace';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '344580679432340');fbq('track', "PageView");</script><!-- End of Squarespace Headers -->
+
+<!-- <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-45864015-2', 'auto');ga('send', 'pageview');</script><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.agent='plsquarespace';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '344580679432340');fbq('track', "PageView");</script>-->
+
   </head>
   <body id="collection-5dca637e0340341fa6fa6858" class="tweak-social-icons-style-regular tweak-social-icons-shape-circle tweak-site-width-option-full-background tweak-icon-weight-light  tweak-site-ajax-loading-enable  ancillary-header-top-left-layout-horizontal ancillary-header-top-center-layout-horizontal ancillary-header-top-right-layout-horizontal ancillary-header-bottom-left-layout-horizontal ancillary-header-bottom-center-layout-horizontal ancillary-header-bottom-right-layout-horizontal ancillary-header-branding-position-bottom-left ancillary-header-tagline-position-top-left ancillary-header-primary-nav-position-bottom-left ancillary-header-secondary-nav-position-bottom-right ancillary-header-social-position-hide ancillary-header-search-position-hide ancillary-header-cart-position-top-right ancillary-header-account-position-top-right tweak-header-primary-nav-hover-style-active tweak-header-primary-nav-button-style-solid tweak-header-primary-nav-button-shape-square  tweak-header-secondary-nav-hover-style-active tweak-header-secondary-nav-button-style-outline tweak-header-secondary-nav-button-shape-rounded tweak-header-search-style-icon-only tweak-header-search-placeholder-show tweak-header-cart-style-cart tweak-header-account-style-text tweak-overlay-parallax-enabled tweak-overlay-parallax-new-math tweak-index-nav-style-vertical-lines tweak-index-nav-position-right tweak-index-nav-text-show tweak-index-page-fullscreen-pages-with-backgrounds-only  tweak-index-page-scroll-indicator-icon-and-text tweak-index-page-scroll-indicator-icon-line tweak-index-page-scroll-indicator-icon-weight-hairline  tweak-index-gallery-layout-split tweak-index-gallery-spacing-sides-show tweak-index-gallery-spacing-top-bottom-show tweak-index-gallery-fixed-height tweak-index-gallery-apply-bottom-spacing tweak-index-gallery-hover-style-plain tweak-index-gallery-controls-small-arrows tweak-index-gallery-controls-icon-weight-hairline tweak-index-gallery-indicators-lines tweak-index-gallery-autoplay-enable tweak-index-gallery-transition-fade tweak-index-gallery-content-position-bottom-center tweak-index-gallery-content-text-alignment-center tweak-footer-show tweak-footer-layout-stacked tweak-footer-layout-columns-auto tweak-footer-stacked-alignment-center   tweak-mobile-bar-top-fixed ancillary-mobile-bar-branding-position-top-left ancillary-mobile-bar-menu-icon-position-top-right tweak-mobile-bar-menu-icon-hamburger ancillary-mobile-bar-search-icon-position-hide ancillary-mobile-bar-cart-position-bottom-center tweak-mobile-bar-cart-style-text ancillary-mobile-bar-account-position-bottom-center tweak-mobile-bar-account-style-text tweak-mobile-overlay-slide-origin-left tweak-mobile-overlay-close-show  tweak-mobile-overlay-menu-primary-button-style-solid tweak-mobile-overlay-menu-primary-button-shape-square tweak-mobile-overlay-menu-secondary-inherit  tweak-mobile-overlay-menu-secondary-button-style-solid tweak-mobile-overlay-menu-secondary-button-shape-square tweak-quote-block-alignment-left  tweak-blog-meta-primary-none tweak-blog-meta-secondary-date tweak-blog-list-style-grid tweak-blog-list-separator-show tweak-blog-list-alignment-left tweak-blog-list-item-image-show tweak-blog-list-item-image-aspect-ratio-grid-43-four-three tweak-blog-list-item-image-aspect-ratio-stacked-11-square tweak-blog-list-item-title-show tweak-blog-list-item-excerpt-show tweak-blog-list-item-body-show tweak-blog-list-item-readmore-inline tweak-blog-list-item-meta-position-below-content tweak-blog-list-pagination-link-label-show  tweak-blog-list-pagination-link-icon-weight-light tweak-blog-item-alignment-center tweak-blog-item-meta-position-above-title tweak-blog-item-share-position-below-content    tweak-blog-item-pagination-link-meta-hide tweak-blog-item-pagination-link-icon-weight-light   event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date  event-list-address     event-excerpts  event-item-back-link event-time-format   gallery-design-slideshow aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop   tweak-product-list-image-aspect-ratio-11-square tweak-product-list-item-hover-behavior-show-alternate-image tweak-product-list-meta-position-under tweak-product-list-mobile-meta-position-under tweak-product-list-meta-alignment-under-center tweak-product-list-meta-alignment-overlay-center-center tweak-product-list-show-title tweak-product-list-show-price tweak-product-list-filter-display-hide tweak-product-list-filter-alignment-center tweak-product-item-nav-show-breadcrumb-and-pagination tweak-product-item-nav-pagination-style-previousnext tweak-product-item-nav-breadcrumb-alignment-left tweak-product-item-nav-pagination-alignment-split tweak-product-item-gallery-position-left tweak-product-item-gallery-design-stacked tweak-product-item-gallery-aspect-ratio-11-square tweak-product-item-gallery-thumbnail-alignment-left tweak-product-item-details-alignment-left tweak-product-item-details-show-title tweak-product-item-details-show-price tweak-product-item-details-show-excerpt tweak-product-item-details-excerpt-position-below-price tweak-product-item-details-show-share-buttons tweak-product-item-details-show-variants tweak-product-item-details-show-quantity tweak-product-item-details-options-style-square tweak-product-item-details-show-add-to-cart-button tweak-product-item-details-add-to-cart-button-style-outline tweak-product-item-details-add-to-cart-button-shape-square tweak-product-item-details-add-to-cart-button-padding-medium  tweak-product-item-image-zoom-behavior-click tweak-product-item-lightbox-enabled tweak-related-products-image-aspect-ratio-11-square tweak-related-products-meta-alignment-under-center tweak-product-badge-style-none tweak-product-badge-position-top-right tweak-product-badge-inset-floating newsletter-style-custom hide-opentable-icons opentable-style-dark small-button-style-outline small-button-shape-pill medium-button-style-outline medium-button-shape-pill large-button-style-outline large-button-shape-pill image-block-poster-text-alignment-center  image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-outline button-corner-style-pill tweak-product-quick-view-button-style-docked tweak-product-quick-view-button-position-center tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light tweak-share-buttons-style-raised tweak-share-buttons-icons-show   tweak-share-buttons-standard-icon-color native-currency-code-usd collection-5dca637e0340341fa6fa6858 collection-type-index collection-layout-default homepage view-list mobile-style-available sqs-has-custom-cart has-logo-image has-social has-parallax-images has-parallax-images has-parallax-images has-parallax-images has-parallax-images enable-load-effects has-primary-nav has-secondary-nav has-footer-nav" data-controller="HashManager, SiteLoader, MobileClassname">
 
@@ -158,32 +156,33 @@ function gtag_report_conversion(url) {
     <div data-nc-container="bottom-left">
       <button class="Mobile-bar-menu" data-nc-element="menu-icon" data-controller-overlay="menu" data-controller="MobileOverlayToggle">
         <svg class="Icon Icon--hamburger" viewBox="0 0 24 18">
-          <use xlink:href="/assets/ui-icons.svg#hamburger-icon--even" class="use--even"></use>
-          <use xlink:href="/assets/ui-icons.svg#hamburger-icon--odd" class="use--odd"></use>
+
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#hamburger-icon--even') ?>" class="use--even"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#hamburger-icon--odd') ?>" class="use--odd"></use>
         </svg>
         <svg class="Icon Icon--hotdog" viewBox="0 0 24 14">
-          <use xlink:href="/assets/ui-icons.svg#hotdog-icon--even" class="use--even"></use>
-          <use xlink:href="/assets/ui-icons.svg#hotdog-icon--odd" class="use--odd"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#hotdog-icon--even') ?>" class="use--even"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#hotdog-icon--odd') ?>" class="use--odd"></use>
         </svg>
         <svg class="Icon Icon--plus" viewBox="0 0 20 20">
-          <use xlink:href="/assets/ui-icons.svg#plus-icon--even" class="use--even"></use>
-          <use xlink:href="/assets/ui-icons.svg#plus-icon--odd" class="use--odd"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#plus-icon--even') ?>" class="use--even"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#plus-icon--odd') ?>" class="use--odd"></use>
         </svg>
         <svg class="Icon Icon--dots-horizontal" viewBox="0 0 25 7">
-          <use xlink:href="/assets/ui-icons.svg#dots-horizontal-icon--even" class="use--even"></use>
-          <use xlink:href="/assets/ui-icons.svg#dots-horizontal-icon--odd" class="use--odd"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#dots-horizontal-icon--even') ?>" class="use--even"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#dots-horizontal-icon--odd') ?>" class="use--odd"></use>
         </svg>
         <svg class="Icon Icon--dots-vertical" viewBox="0 0 7 25">
-          <use xlink:href="/assets/ui-icons.svg#dots-vertical-icon--even" class="use--even"></use>
-          <use xlink:href="/assets/ui-icons.svg#dots-vertical-icon--odd" class="use--odd"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#dots-vertical-icon--even') ?>" class="use--even"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#dots-vertical-icon--odd') ?>" class="use--odd"></use>
         </svg>
         <svg class="Icon Icon--squares-horizontal" viewBox="0 0 25 7">
-          <use xlink:href="/assets/ui-icons.svg#squares-horizontal-icon--even" class="use--even"></use>
-          <use xlink:href="/assets/ui-icons.svg#squares-horizontal-icon--odd" class="use--odd"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#squares-horizontal-icon--even') ?>" class="use--even"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#squares-horizontal-icon--odd') ?>" class="use--odd"></use>
         </svg>
         <svg class="Icon Icon--squares-vertical" viewBox="0 0 7 25">
-          <use xlink:href="/assets/ui-icons.svg#squares-vertical-icon--even" class="use--even"></use>
-          <use xlink:href="/assets/ui-icons.svg#squares-vertical-icon--odd" class="use--odd"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#squares-vertical-icon--even') ?>" class="use--even"></use>
+          <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#squares-vertical-icon--odd') ?>" class="use--odd"></use>
         </svg>
       </button>
     </div>
@@ -344,7 +343,7 @@ function gtag_report_conversion(url) {
     </div>
     <button class="Mobile-overlay-close" data-controller="MobileOverlayToggle">
       <svg class="Icon Icon--close" viewBox="0 0 16 16">
-        <use xlink:href="/assets/ui-icons.svg#close-icon"></use>
+        <use xlink:href="<?php echo get_theme_file_uri( '/assets/ui-icons.svg#close-icon') ?>"></use>
       </svg>
     </button>
     <div class="Mobile-overlay-back" data-controller="MobileOverlayToggle"></div>
@@ -565,13 +564,13 @@ function gtag_report_conversion(url) {
 
 
 
-</div></div></div><div class="col sqs-col-3 span-3"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-ae28f23938130df707f5"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-19c73deac327aa17950d"><div class="sqs-block-content"><h2 style="text-align:center;white-space:pre-wrap;">魔法のような広告体験をあなたに。</h2><p style="text-align:center;white-space:pre-wrap;" class=""><a href="https://zeppelin.co.jp/araddin"><strong>﻿さらに詳しく ＞</strong></a></p></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1576886030271_8243"><div class="sqs-block-content">&nbsp;</div></div></div></div></div>
+</div></div></div><div class="col sqs-col-3 span-3"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-ae28f23938130df707f5"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-19c73deac327aa17950d"><div class="sqs-block-content"><h2 style="text-align:center;white-space:pre-wrap;">留学から生まれる最高の仲間と共に</h2><p style="text-align:center;white-space:pre-wrap;" class=""><a href="https://zeppelin.co.jp/araddin"><strong>﻿さらに詳しく ＞</strong></a></p></div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1576886030271_8243"><div class="sqs-block-content">&nbsp;</div></div></div></div></div>
         </div>
 
 
             <figure class="Index-page-image" data-parallax-image-wrapper>
 
-  <img data-src="https://images.squarespace-cdn.com/content/v1/5b98617e266c07de28ab2aff/1575021190406-EAWBOCIP1AI48I28XJMX/ke17ZwdGBToddI8pDm48kDzHJ2F3iVlB7RxgipQR_zt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mlM0or4nqX7jrn5yWu0hA0015MMUZaXN1iskUXcC32Ppd6pRuRATvA2kfe7Z17qCA/ARaddin+Rugby.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5b98617e266c07de28ab2aff/1575021190406-EAWBOCIP1AI48I28XJMX/ke17ZwdGBToddI8pDm48kDzHJ2F3iVlB7RxgipQR_zt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mlM0or4nqX7jrn5yWu0hA0015MMUZaXN1iskUXcC32Ppd6pRuRATvA2kfe7Z17qCA/ARaddin+Rugby.jpg" data-image-dimensions="2500x1745" data-image-focal-point="0.5,0.5" alt="ARaddin Rugby.jpg"  data-load="false" />
+  <img data-src="http://35.198.169.45/wp-content/uploads/2020/02/top-scaled.jpg" data-image="http://35.198.169.45/wp-content/uploads/2020/02/top-scaled.jpg" data-image-dimensions="2500x1745" data-image-focal-point="0.5,0.5" alt="top-scaled.jpg"  data-load="false" />
 
             </figure>
 
@@ -3626,3 +3625,4 @@ function gtag_report_conversion(url) {
 
   </body>
 </html>
+
