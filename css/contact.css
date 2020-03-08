@@ -1,0 +1,781 @@
+/* -----------------------------------------------------------------------------
+
+ contact.css
+
+----------------------------------------------------------------------------- */
+.illustMain {
+  top: 80px;
+  margin: 0 0 0 430px;
+}
+.illustMain .imgBase {
+  position: relative;
+  z-index: 2;
+}
+.illustMain .imgAnime {
+  position: absolute;
+}
+.illustMain .imgAnime.imgAnime01 {
+  top: -20px;
+  left: 10px;
+  width: 148px;
+  transform: skewY(17deg);
+  transform-origin: 0 0;
+}
+.illustMain .imgAnime.imgAnime02 {
+  top: 134px;
+  left: 257px;
+  width: 59px;
+  z-index: 3;
+}
+.illustMain .imgAnime.imgAnime03 {
+  top: 244px;
+  left: 383px;
+  width: 49px;
+  z-index: 3;
+}
+
+/* #formContact
+-----------------------------------*/
+#formContact {
+  position: relative;
+  overflow: hidden;
+}
+
+#formContact .lead {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 50px;
+  padding: 0 20% 0 0;
+}
+
+#formContact .lead + p {
+  font-size: 1.5rem;
+  margin: -40px 0 50px;
+}
+
+#formContact .inquiryBox {
+  background: #f0f0f0;
+  margin: 50px auto 40px;
+  max-width: 870px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+#formContact .inquiryBox dt {
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #fff;
+}
+
+#formContact .inquiryBox dt i {
+  display: inline-block;
+  position: relative;
+  top: 0.1em;
+  font-size: 2rem;
+  margin: 0 0.1em 0 0;
+}
+
+#formContact .inquiryBox dd {
+  padding: 25px 0;
+}
+
+#formContact .inquiryBox dd ul {
+  font-size: 0;
+}
+
+#formContact .inquiryBox dd ul li {
+  display: inline-block;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+#formContact .inquiryBox dd ul li + li {
+  display: inline-block;
+  margin: 0 0 0 35px;
+}
+
+#formContact .inquiryBox dd ul li span {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0 8px 0 0;
+  border: 1px solid #d2d8d8;
+  width: 60px;
+  padding: 0 2px;
+  position: relative;
+  top: -0.2em;
+}
+
+#formContact .formGroup {
+  display: block;
+  overflow: hidden;
+  border-top: 1px solid #d2d8d8;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+#formContact .formGroup .formAdress .formInput .label,
+#formContact .formGroup .formAdress .selectBox .label {
+  width: 34%;
+  display: inline-block;
+  margin-top: 18px;
+}
+
+#formContact .formGroup .formAdress .formInput input,
+#formContact .formGroup .formAdress .selectBox select {
+  float: right;
+  width: 65%;
+}
+
+#formContact .formGroup label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#formContact .formGroup .checkBoxWrap {
+  padding: 15px 0;
+}
+
+#formContact .formGroup .checkBox,
+#formContact .formGroup .radioBtn {
+  position: relative;
+}
+
+#formContact .formGroup .radioBtn {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#formContact .formGroup .checkBox + .checkBox,
+#formContact .formGroup .radioBtn + .radioBtn {
+  margin-top: 15px;
+}
+
+#formContact .formGroup .checkBox input,
+#formContact .formGroup .radioBtn input {
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+}
+
+#formContact .formGroup .checkBox label,
+#formContact .formGroup .radioBtn label {
+  position: relative;
+  padding: 3px 0 0 36px;
+  line-height: 1.3;
+}
+
+#formContact .formGroup .checkBox label:before,
+#formContact .formGroup .radioBtn label:before {
+  z-index: 3;
+  content: '';
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: #d2d8d8;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#formContact .formGroup .radioBtn label:before {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+#formContact .formGroup .checkBox input:checked + label:before {
+  background: #000;
+}
+
+#formContact .formGroup .checkBox input:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 9px;
+  background: url("../img/common/icon_check.svg") no-repeat center center/cover;
+  width: 18px;
+  height: 13px;
+  z-index: 4;
+}
+
+#formContact .formGroup .radioBtn input:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background: #000;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+#formContact .formGroup textarea {
+  min-height: 200px;
+}
+
+#formContact .formGroup input[type="text"],
+#formContact .formGroup input[type="email"],
+#formContact .formGroup input[type="tel"],
+#formContact .formGroup textarea,
+#formContact .formGroup select {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  font-size: 1.6rem;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+#formContact .formGroup > div {
+  float: left;
+}
+
+#formContact .formGroup .formGroupDetail {
+  width: 70%;
+  padding: 25px 30px 25px 0;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+#formContact .formGroup:first-child .formGroupTitle {
+  padding: 0;
+}
+
+#formContact .formGroup .formGroupTitle {
+  width: 30%;
+  padding: 37px 10px;
+}
+
+#formContact .formGroup .formName {
+  width: calc(50% - 10px);
+  float: left;
+  display: table;
+}
+
+#formContact .formGroup .formName + .formName {
+  margin: 0 0 0 20px;
+}
+
+#formContact .formGroup .formName > * {
+  display: table-cell;
+}
+
+#formContact .formGroup .formName label {
+  width: 15px;
+  padding: 0 15px 0 20px;
+}
+
+#formContact .formGroup .formNameKana label {
+  width: 34px;
+  padding: 0 6px 0 10px;
+}
+
+#formContact .formGroup .formGroupTitle label {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#formContact .formGroup .formGroupTitle label span {
+  color: #fff;
+  background: #a5a0a0;
+  font-size: 1.3rem;
+  margin-left: 5px;
+  width: 36px;
+  height: 21px;
+  line-height: 21px;
+  display: inline-block;
+  text-align: center;
+}
+
+#formContact .formGroup .formGroupTitle label span.required {
+  background: #e60012;
+}
+
+#formContact .formGroup.rules {
+  border-top: none;
+  text-align: center;
+  margin: 20px auto 0;
+}
+
+#formContact .formGroup.rules dl {
+  border-top: none;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #ececec;
+}
+
+#formContact .formGroup.rules dl dt {
+  background: #fff;
+  padding: 20px;
+}
+
+#formContact .formGroup.rules dl dd {
+  background: #ececec;
+  padding: 20px;
+}
+
+#formContact .formGroup.rules a {
+  text-decoration: underline;
+}
+
+.pcView #formContact .formGroup.rules a:hover {
+  text-decoration: none;
+}
+
+#formContact .formGroup.rules label {
+  font-size: 1.7rem;
+  line-height: 1;
+  font-weight: 700;
+  position: relative;
+  line-height: 28px;
+  padding-top: 0;
+}
+
+#formContact .formGroup.rules label:before {
+  background: #fff;
+}
+
+#formContact .formGroup.rules .checkBox {
+  text-align: center;
+  float: none;
+}
+
+#formContact .btnForm {
+  margin: 55px auto 0;
+  max-width: 400px;
+}
+
+#formContact .btnForm button {
+  height: 80px;
+  font-size: 1.8rem;
+}
+
+#formContact .btnForm button[disabled] {
+  background: #9a9a9a;
+  border: 1px solid #9a9a9a;
+  cursor: default;
+  color: #ddd;
+}
+
+#formContact .btnForm button[disabled]:hover {
+  background: #9a9a9a;
+  border: 1px solid #9a9a9a;
+  box-shadow: none;
+}
+
+#formContact .btnForm button[disabled] .iconArrowRight {
+  display: none;
+}
+
+.pcView #formContact .btnForm button[disabled]:hover:before,
+.pcView #formContact .btnForm button[disabled]:hover:after,
+.pcView #formContact .btnForm button[disabled]:hover span:before,
+.pcView #formContact .btnForm button[disabled]:hover span:after {
+  content: none;
+}
+
+#formContact .btnWrap {
+  margin: 55px auto 0;
+  max-width: 840px;
+}
+
+#formContact .btnWrap .btn {
+  width: calc(50% - 20px);
+  margin: 0;
+}
+
+#formContact .btnWrap .btnSubmit {
+  float: right;
+}
+
+#formContact .btnWrap .btnBack {
+  float: left;
+}
+
+/* error */
+#formContact dl.errorList {
+  border: 1px solid #dc0707;
+  padding: 40px;
+  margin: 0 auto 50px;
+  background: #fff7f7;
+  color: #f00;
+  max-width: 870px;
+}
+
+#formContact dl.errorList dt {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#formContact dl.errorList dd ul li {
+  padding-left: 15px;
+  position: relative;
+  line-height: 1.3;
+}
+
+#formContact dl.errorList dd ul li + li {
+  margin-top: 5px;
+}
+
+#formContact dl.errorList dd ul li:after {
+  content: "";
+  border-radius: 6px;
+  width: 6px;
+  height: 6px;
+  background: #f00;
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+}
+
+#formContact .error input,
+#formContact .error select {
+  background-color: #fff7f7 !important;
+  border: 1px solid #dc0707 !important;
+}
+
+#formContact .formGroup.error .radioBtn label:before {
+  background: #fff7f7;
+  border: 1px solid #dc0707;
+  box-sizing: border-box;
+}
+
+.errorTxt {
+  color: #ff0000;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* confirm */
+.confirm #formContact .formGroup .formGroupTitle {
+  padding: 25px 10px;
+}
+
+/* thanks */
+.thanks #formContact .leadThanks {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding: 28px 0 28px 86px;
+  margin: 0 auto;
+  position: relative;
+  display: table;
+}
+
+.thanks #formContact .leadThanks:before {
+  content: url("../img/contact/icon_thanks.svg");
+  display: block;
+  width: 106px;
+  height: 106px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.thanks #formContact .leadThanks span {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.thanks #formContact .leadThanks + p {
+  text-align: center;
+  margin: 25px 0 0;
+}
+
+/* -----------------------------------------------------------------------------
+
+ min-width: 751px
+
+----------------------------------------------------------------------------- */
+@media print, screen and (min-width: 751px) {
+  #formContact .inquiryBox dd ul li a {
+    cursor: default;
+    pointer-events: none;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 1240px
+
+----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+
+ max-width: 1000px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  .illustMain {
+    margin: 0 0 0 300px;
+  }
+
+  /* thanks */
+  .thanks #formContact .leadThanks {
+    font-size: 2rem;
+    padding: 80px 0 0;
+    display: block;
+    margin: 0 -15px;
+  }
+
+  .thanks #formContact .leadThanks:before {
+    width: 54px;
+    height: 54px;
+    left: 50%;
+    margin: 0 0 0 -27px;
+  }
+
+  .thanks #formContact .leadThanks + p {
+    margin: 20px -15px 0;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 750px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 750px) {
+  .illustMain {
+    top: 0;
+    margin: 0 0 0 90px;
+  }
+  .illustMain .imgBase {
+    width: 176px;
+  }
+  .illustMain .imgAnime {
+    position: absolute;
+  }
+  .illustMain .imgAnime.imgAnime01 {
+    top: -7px;
+    left: 2px;
+    width: 57px;
+  }
+  .illustMain .imgAnime.imgAnime02 {
+    top: 53px;
+    left: 102px;
+    width: 25px;
+  }
+  .illustMain .imgAnime.imgAnime03 {
+    top: 97px;
+    left: 152px;
+    width: 20px;
+  }
+
+  /* #formContact
+  -----------------------------------*/
+  #formContact .lead {
+    font-size: 1.4rem;
+    margin: 0 0 30px;
+    padding: 0;
+  }
+
+  #formContact .lead + p {
+    font-size: 1.2rem;
+    margin: -20px 0 30px;
+  }
+
+  #formContact .inquiryBox {
+    margin: 30px auto 30px;
+    padding: 0 20px;
+  }
+
+  #formContact .inquiryBox dt {
+    font-size: 1.4rem;
+    padding: 20px 0 10px;
+    margin: 0 -15px;
+  }
+
+  #formContact .inquiryBox dt i {
+    display: none;
+  }
+
+  #formContact .inquiryBox dd {
+    padding: 20px 0;
+  }
+
+  #formContact .inquiryBox dd ul li {
+    font-size: 1.8rem;
+    display: block;
+  }
+
+  #formContact .inquiryBox dd ul li + li {
+    margin: 10px 0 0;
+  }
+
+  #formContact .inquiryBox dd ul li span {
+    margin: 0 10px 0 0;
+    width: 44px;
+    padding: 0 2px;
+    top: -0.2em;
+  }
+
+  #formContact .formGroup {
+    padding: 20px 0;
+  }
+
+  #formContact .formGroup .checkBoxWrap {
+    padding: 0;
+  }
+
+  #formContact .formGroup .checkBox + .checkBox,
+  #formContact .formGroup .radioBtn + .radioBtn {
+    margin-top: 15px;
+  }
+
+  #formContact .formGroup .checkBox label,
+  #formContact .formGroup .radioBtn label {
+    padding: 0 0 0 25px;
+  }
+
+  #formContact .formGroup .checkBox label:before,
+  #formContact .formGroup .radioBtn label:before {
+    width: 17px;
+    height: 17px;
+    top: 2px;
+  }
+
+  #formContact .formGroup .checkBox input:checked + label:after {
+    left: 3px;
+    top: 6px;
+    width: 11px;
+    height: 9px;
+  }
+
+  #formContact .formGroup .radioBtn input:checked + label:after {
+    left: 5px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+  }
+
+  #formContact .formGroup input[type="text"],
+  #formContact .formGroup input[type="email"],
+  #formContact .formGroup input[type="tel"],
+  #formContact .formGroup textarea,
+  #formContact .formGroup select {
+    padding: 10px;
+  }
+
+  #formContact .formGroup .formGroupDetail {
+    width: 100%;
+    padding: 0;
+  }
+
+  #formContact .formGroup:first-child .formGroupTitle {
+    padding: 0;
+  }
+
+  #formContact .formGroup .formGroupTitle {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px;
+  }
+
+  #formContact .formGroup .formName {
+    width: calc(50% - 7px);
+  }
+
+  #formContact .formGroup .formName + .formName {
+    margin: 0 0 0 14px;
+  }
+
+  #formContact .formGroup .formGroupTitle label {
+    font-weight: bold;
+  }
+
+  #formContact .formGroup.rules {
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+
+  #formContact .formGroup.rules dl dt {
+    padding: 15px 5px;
+    font-size: 1.2rem;
+  }
+
+  #formContact .formGroup.rules dl dd {
+    padding: 15px;
+  }
+
+  #formContact .formGroup.rules label {
+    font-size: 1.2rem;
+    line-height: 17px;
+  }
+
+  #formContact .formGroup.rules label:before {
+    top: 0;
+  }
+
+  #formContact .formGroup.rules input:checked + label:after {
+    top: 4px;
+  }
+
+  .spView input::-webkit-input-placeholder {
+    padding-top: 0.2em;
+  }
+
+  #formContact .btnForm {
+    margin: 30px auto 0;
+    max-width: 260px;
+  }
+
+  #formContact .btnForm button {
+    height: 50px;
+    font-size: 1.4rem;
+  }
+
+  #formContact .btnWrap {
+    margin: 20px auto 0;
+    max-width: 260px;
+  }
+
+  #formContact .btnWrap .btn {
+    width: auto;
+  }
+
+  #formContact .btnWrap .btnSubmit {
+    float: none;
+  }
+
+  #formContact .btnWrap .btnBack {
+    float: none;
+    margin: 15px 0 0;
+  }
+
+  /* error */
+  #formContact dl.errorList {
+    padding: 20px;
+    margin: 0 auto 30px;
+  }
+
+  /* confirm */
+  .confirm #formContact .formGroup .formGroupTitle {
+    padding: 0;
+  }
+
+  /* thanks */
+  .thanks #formContact .leadThanks {
+    font-size: 1.5rem;
+  }
+
+  .thanks #formContact .leadThanks + p {
+    font-size: 1.2rem;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 374px
+
+----------------------------------------------------------------------------- */

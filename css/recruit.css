@@ -1,0 +1,927 @@
+/* -----------------------------------------------------------------------------
+
+ recruit.css
+
+----------------------------------------------------------------------------- */
+.section.animate {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.section.animate.animated {
+  opacity: 1;
+}
+.section .lead {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0 0 60px;
+}
+.section .lead.animate {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.section .lead.animate.animated {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.index .illustMain {
+  top: 100px;
+  margin: 0 0 0 465px;
+}
+.index .illustMain .imgAnime {
+  position: absolute;
+}
+.index .illustMain .imgAnime.imgAnime01 {
+  top: 3px;
+  left: 317px;
+  width: 94px;
+  transform: skewY(17deg);
+}
+.index .illustMain .imgAnime.imgAnime02 {
+  top: 51px;
+  left: 430px;
+  width: 28px;
+}
+.index #intro .ttl {
+  font-size: 2.5rem;
+  margin: 0 0 30px;
+  font-weight: 700;
+}
+.index #intro .ttl.animate {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.index #intro .ttl.animated {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #intro p {
+  font-size: 1.5rem;
+  line-height: 2.1;
+}
+.index #intro p.animate {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.index #intro p.animated {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #person .personCont .personContBox {
+  position: relative;
+  padding: 0 0 0 190px;
+  overflow: hidden;
+  min-height: 150px;
+}
+.index #person .personCont .personContBox + .personContBox {
+  margin: 40px 0 0;
+}
+.index #person .personCont .personContBox figure {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.index #person .personCont .personContBox figure span {
+  background: #fff;
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.index #person .personCont .personContBox .personContBoxTtl {
+  margin: 0 0 15px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.index #person .personCont .personContBox .personContBoxTtl b {
+  display: block;
+  color: #acb1b1;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.index #person .personCont .personContBox.animate figure {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.index #person .personCont .personContBox.animate figure:before {
+  -webkit-transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-duration: 3s;
+  -o-transition-duration: 3s;
+  transition-duration: 3s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+.index #person .personCont .personContBox.animate .personContBoxTtl {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.index #person .personCont .personContBox.animate p {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.index #person .personCont .personContBox.animate.animated figure {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.index #person .personCont .personContBox.animate.animated figure:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.index #person .personCont .personContBox.animate.animated .personContBoxTtl {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #person .personCont .personContBox.animate.animated p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #value .tabBtn {
+  display: none;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto -1px;
+}
+.index #value .tabBtn li {
+  width: calc(50% - 2px);
+  float: left;
+  border: 1px solid #d2d8d8;
+  border-bottom: none;
+  text-align: center;
+  background: #d2d8d8;
+  cursor: pointer;
+}
+.index #value .tabBtn li + li {
+  float: right;
+}
+.index #value .tabBtn li.active {
+  background: #fff;
+}
+.index #value .tabBtn li span {
+  display: inline-block;
+  font-weight: 700;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.4rem;
+}
+.index #value .tabBtn li span i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  text-align: center;
+  background: #022738;
+  position: relative;
+  margin: 0 0 0 5px;
+  position: relative;
+  top: 2px;
+}
+.index #value .tabBtn li span i:before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #fff;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position: absolute;
+  top: 4px;
+  left: 5px;
+}
+.index #value .valueContentWrap {
+  position: relative;
+}
+.index #value .valueContentWrap:before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #d2d8d8;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.index #value .valueContent {
+  width: 45%;
+}
+.index #value .valueContent .valueContentTtl {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+.index #value .valueContent .valueContentTtl.animate {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+.index #value .valueContent .valueContentTtl.animate.animated {
+  opacity: 1;
+}
+.index #value .valueContent figure {
+  width: 205px;
+  height: 205px;
+  margin: 0 auto 45px;
+  border-radius: 50%;
+  background: url("../img/common/bg01.svg") repeat left top/2px;
+  background-attachment: fixed;
+  padding: 12px;
+  position: relative;
+}
+.index #value .valueContent figure span {
+  background: #fff;
+  display: block;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.index #value .valueContent figure span img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.index #value .valueContent figure.animate {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.index #value .valueContent figure.animate:before {
+  -webkit-transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-duration: 3s;
+  -o-transition-duration: 3s;
+  transition-duration: 3s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+.index #value .valueContent figure.animate img {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+.index #value .valueContent figure.animate.animated {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.index #value .valueContent figure.animate.animated:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.index #value .valueContent figure.animate.animated img {
+  opacity: 1;
+}
+.index #value .valueContent dl + dl {
+  margin: 50px 0 0;
+}
+.index #value .valueContent dl dt {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 15px;
+  line-height: 1.4;
+}
+.index #value .valueContent dl.animate dt {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.index #value .valueContent dl.animate dd {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.index #value .valueContent dl.animate.animated dt {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #value .valueContent dl.animate.animated dd {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #value .valueContent#knowledge {
+  float: left;
+}
+.index #value .valueContent#experience {
+  float: right;
+}
+.index #value .valueContent.active .valueContentTtl {
+  opacity: 1;
+}
+.index #value .valueContent.active figure {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.index #value .valueContent.active figure:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.index #value .valueContent.active figure img {
+  opacity: 1;
+}
+.index #guideline .acContent {
+  border-top: 1px solid #d2d8d8;
+  border-bottom: 1px solid #d2d8d8;
+}
+.index #guideline .acContent + .acContent {
+  border-top: none;
+}
+.index #guideline .acContent .acHead {
+  position: relative;
+  display: block;
+  padding: 25px 90px 25px 165px;
+  min-height: 150px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.index #guideline .acContent .acHead i {
+  display: block;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  transform: translateY(-50%);
+}
+.index #guideline .acContent .acHead i:before, .index #guideline .acContent .acHead i:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #1d1d1d;
+  transform: translate(-50%, -50%) rotate(0);
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.index #guideline .acContent .acHead i:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.index #guideline .acContent .acHead.active {
+  background: #424242;
+  color: #fff;
+}
+.index #guideline .acContent .acHead.active i:before, .index #guideline .acContent .acHead.active i:after {
+  background: #fff;
+}
+.index #guideline .acContent .acHead.active i:after {
+  transform: translate(-50%, -50%) rotate(0);
+}
+.pcView .index #guideline .acContent .acHead:hover {
+  background: #424242;
+  color: #fff;
+}
+.pcView .index #guideline .acContent .acHead:hover i:before, .pcView .index #guideline .acContent .acHead:hover i:after {
+  background: #fff;
+}
+.index #guideline .acContent .acHead figure {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+}
+.index #guideline .acContent .acHead .acHeadTtl {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 10px;
+  line-height: 1.3;
+}
+.index #guideline .acContent .acBody {
+  display: none;
+  padding: 60px 5% 80px;
+}
+.index #guideline .acContent .acBody .acBodySection + .acBodySection {
+  margin: 60px 0 0;
+}
+.index #guideline .acContent .acBody .acBodySection .acBodyTtl {
+  margin: 0 0 20px;
+  font-size: 0;
+}
+.index #guideline .acContent .acBody .acBodySection .acBodyTtl .langEn {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.3;
+  font-size: 2.4rem;
+}
+.index #guideline .acContent .acBody .acBodySection .acBodyTtl .langJp {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0 0 0 18px;
+  padding: 0 0 0 18px;
+  vertical-align: middle;
+  line-height: 1.3;
+  border-left: 1px solid #d2d8d8;
+}
+.index #guideline .acContent .acBody .acBodySection .notes li {
+  text-indent: -1em;
+  margin-left: 1em;
+  font-size: 1.2rem;
+}
+.index #guideline .acContent .acBody .acBodySection .frame {
+  background: #f0f0f0;
+  padding: 50px;
+}
+.index #guideline .acContent .acBody .acBodySection .frame dl + dl {
+  margin: 25px 0 0;
+}
+.index #guideline .acContent .acBody .acBodySection .frame ul li {
+  text-indent: -1em;
+  margin-left: 1em;
+}
+.index #guideline .acContent .acBody .acBodySection .divTable {
+  border-top: 1px solid #c8cfd4;
+}
+.index #guideline .acContent .acBody .acBodySection .divTable dl {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border-bottom: 1px solid #c8cfd4;
+}
+.index #guideline .acContent .acBody .acBodySection .divTable dl dt,
+.index #guideline .acContent .acBody .acBodySection .divTable dl dd {
+  display: table-cell;
+  vertical-align: middle;
+}
+.index #guideline .acContent .acBody .acBodySection .divTable dl dt {
+  width: 28.8%;
+  font-weight: bold;
+  padding: 25px 0 25px 5.5%;
+}
+.index #guideline .acContent .acBody .acBodySection .divTable dl dd {
+  padding: 25px 5.5%;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList {
+  border: 1px solid #f1f3f4;
+  border-left: 0;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step {
+  position: relative;
+  float: left;
+  width: 25%;
+  background: #fff;
+  border-left: 1px solid #f1f3f4;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step + .step:before, .index #guideline .acContent .acBody .acBodySection .stepList .step + .step:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  position: absolute;
+  left: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step + .step:before {
+  border-color: rgba(241, 243, 244, 0);
+  border-left-color: #f1f3f4;
+  border-width: 11px;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step + .step:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-left-color: #fff;
+  border-width: 10px;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step .stepTtl {
+  margin: 0 0 15px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step .stepTtl b {
+  display: block;
+  color: #acb1b1;
+  font-size: 1.6rem;
+  margin: 0 0 5px;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step .stepTtl span {
+  font-size: 2rem;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step .notes {
+  margin: 10px 0;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList .step .notes li {
+  text-indent: 0;
+  margin-left: 0;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList a {
+  text-decoration: underline;
+}
+.index #guideline .acContent .acBody .acBodySection .stepList a:hover {
+  text-decoration: none;
+}
+.index #guideline .acContent .acBody .acBodySection.job .dlList {
+  margin-top: 25px;
+}
+.index #guideline .acContent .acBody .btn {
+  max-width: 400px;
+  margin: 60px auto 0;
+}
+.index #guideline .acContent .acBody .btn a {
+  padding: 0;
+  height: 80px;
+  line-height: 80px;
+  font-size: 1.8rem;
+  color: #fff;
+  background: #022738;
+  border: none;
+}
+.index #guideline .acContent .acBody .btn a i {
+  margin: 0 10px 0 0;
+}
+.pcView .index #guideline .acContent .acBody .btn a:hover {
+  background: #666;
+}
+.index #guideline .acContent.animate {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.index #guideline .acContent.animated {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* -----------------------------------------------------------------------------
+
+ min-width: 751px
+
+----------------------------------------------------------------------------- */
+@media print, screen and (min-width: 751px) {
+  .index #value .valueContent {
+    display: block !important;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 1240px
+
+----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+
+ max-width: 1000px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  .index .illustMain {
+    top: 60px;
+    margin: 0 0 0 275px;
+  }
+  .index #intro .ttl .sp {
+    display: block;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList {
+    border: 2px solid #f1f3f4;
+    border-left: 2px solid #f1f3f4;
+    display: block;
+    flex-wrap: inherit;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step {
+    float: none;
+    width: auto;
+    border-left: none;
+    padding: 30px 15px;
+    box-sizing: border-box;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step + .step {
+    border-top: 2px solid #f1f3f4;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step + .step:before, .index #guideline .acContent .acBody .acBodySection .stepList .step + .step:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    transform: translate(-50%, 0);
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step + .step:before {
+    border-left-color: rgba(241, 243, 244, 0);
+    border-top-color: #f1f3f4;
+    border-width: 15px;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step + .step:after {
+    border-left-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 11px;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step .stepTtl b {
+    font-size: 1.3rem;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step .stepTtl span {
+    font-size: 1.5rem;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step .notes {
+    margin: 10px 0;
+  }
+  .index #guideline .acContent .acBody .acBodySection .stepList .step .notes li {
+    text-indent: -1em;
+    margin-left: 1em;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 750px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 750px) {
+  .section .lead {
+    margin: 0 -15px 30px;
+  }
+
+  .index .illustMain {
+    top: 12px;
+    margin: 0 0 0 -4px;
+  }
+  .index .illustMain .imgBase {
+    width: 376px;
+  }
+  .index .illustMain .imgAnime.imgAnime01 {
+    top: -18px;
+    left: 267px;
+    width: 47px;
+  }
+  .index .illustMain .imgAnime.imgAnime02 {
+    top: 5px;
+    left: 327px;
+    width: 14px;
+  }
+  .index #intro .ttl {
+    font-size: 1.7rem;
+    margin: 0 0 20px;
+  }
+  .index #intro p {
+    font-size: 1.4rem;
+    line-height: inherit;
+  }
+  .index #person .personCont .personContBox {
+    padding: 0;
+  }
+  .index #person .personCont .personContBox figure {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: inherit;
+    left: inherit;
+    margin: 0 auto 15px;
+  }
+  .index #person .personCont .personContBox .personContBoxTtl {
+    font-size: 1.8rem;
+    margin: 0 0 10px;
+  }
+  .index #value .tabBtn {
+    display: block;
+  }
+  .index #value .valueContentWrap {
+    border: 1px solid #d2d8d8;
+    padding: 30px 15px;
+  }
+  .index #value .valueContentWrap:before {
+    display: none;
+  }
+  .index #value .valueContent {
+    width: auto;
+  }
+  .index #value .valueContent .valueContentTtl {
+    font-size: 2.1rem;
+  }
+  .index #value .valueContent figure {
+    margin: 0 auto 30px;
+  }
+  .index #value .valueContent dl + dl {
+    margin: 35px 0 0;
+  }
+  .index #value .valueContent dl dt {
+    font-size: 1.8rem;
+    margin: 0 0 10px;
+  }
+  .index #value .valueContent#knowledge {
+    float: none;
+  }
+  .index #value .valueContent#experience {
+    float: none;
+  }
+  .index #guideline .acContent .acHead {
+    padding: 20px 20px 60px 20px;
+  }
+  .index #guideline .acContent .acHead i {
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: inherit;
+    right: 0;
+    transform: translateY(0);
+    bottom: 0;
+    background: #f1f1f0;
+  }
+  .index #guideline .acContent .acHead i:before, .index #guideline .acContent .acHead i:after {
+    width: 15px;
+  }
+  .index #guideline .acContent .acHead.active i {
+    background: #5b5b5b;
+  }
+  .index #guideline .acContent .acHead figure {
+    width: 77px;
+    height: 77px;
+    top: inherit;
+    left: inherit;
+    float: left;
+  }
+  .index #guideline .acContent .acHead .acHeadTtl {
+    padding: 0 0 0 100px;
+    height: 77px;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .index #guideline .acContent .acHead p {
+    margin: 10px 0 0;
+    font-size: 1.3rem;
+  }
+  .index #guideline .acContent .acBody {
+    padding: 30px 0 40px;
+    font-size: 1.3rem;
+  }
+  .index #guideline .acContent .acBody .acBodySection + .acBodySection {
+    margin: 40px 0 0;
+  }
+  .index #guideline .acContent .acBody .acBodySection .acBodyTtl {
+    margin: 0 0 15px;
+  }
+  .index #guideline .acContent .acBody .acBodySection .acBodyTtl .langEn {
+    font-size: 2.1rem;
+  }
+  .index #guideline .acContent .acBody .acBodySection .acBodyTtl .langJp {
+    font-size: 1.3rem;
+    margin: 0 0 0 8px;
+    padding: 0 0 0 8px;
+  }
+  .index #guideline .acContent .acBody .acBodySection .frame {
+    padding: 15px;
+  }
+  .index #guideline .acContent .acBody .acBodySection .frame dl + dl {
+    margin: 15px 0 0;
+  }
+  .index #guideline .acContent .acBody .acBodySection .divTable dl {
+    display: block;
+    table-layout: inherit;
+    padding: 15px;
+  }
+  .index #guideline .acContent .acBody .acBodySection .divTable dl dt,
+  .index #guideline .acContent .acBody .acBodySection .divTable dl dd {
+    display: block;
+  }
+  .index #guideline .acContent .acBody .acBodySection .divTable dl dt {
+    width: auto;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0 0 5px;
+  }
+  .index #guideline .acContent .acBody .acBodySection .divTable dl dd {
+    padding: 0;
+  }
+  .index #guideline .acContent .acBody .btn {
+    margin: 40px auto 0;
+  }
+  .index #guideline .acContent .acBody .btn a {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4rem;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 374px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 374px) {
+  .index #guideline .acContent .acHead .acHeadTtl {
+    font-size: 5vw;
+  }
+  .index #guideline .acContent .acBody .btn a {
+    font-size: 3.73vw;
+  }
+
+  .anchor ul li a {
+    padding: 10px 3vw;
+    font-size: 3.73vw;
+  }
+}

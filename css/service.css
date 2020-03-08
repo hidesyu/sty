@@ -1,0 +1,572 @@
+/* -----------------------------------------------------------------------------
+
+ service.css
+
+----------------------------------------------------------------------------- */
+.section.animate {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.section.animate.animated {
+  opacity: 1;
+}
+
+.index .illustMain {
+  top: 100px;
+  margin: 0 0 0 445px;
+}
+.index .illustMain .imgAnime {
+  position: absolute;
+}
+.index .illustMain .imgAnime.imgAnime01 {
+  top: 16px;
+  left: 204px;
+  width: 67px;
+}
+.index .illustMain .imgAnime.imgAnime02 {
+  top: 135px;
+  left: 284px;
+  width: 44px;
+}
+.index .illustMain .imgAnime.imgAnime03 {
+  top: 175px;
+  left: 89px;
+  width: 36px;
+}
+.index #intro .ttl {
+  font-size: 2.5rem;
+  margin: 0 0 30px;
+  font-weight: 700;
+}
+.index #intro .ttl.animate {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.index #intro .ttl.animated {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #intro p {
+  font-size: 1.5rem;
+  line-height: 2.1;
+}
+.index #intro p.animate {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.index #intro p.animated {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .tabBtn {
+  height: 80px;
+  overflow: hidden;
+}
+.index #detail .tabBtn li {
+  width: calc((100% - 30px) / 3);
+  float: left;
+  text-align: center;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  position: relative;
+  top: 0;
+}
+.index #detail .tabBtn li + li {
+  margin: 0 0 0 15px;
+}
+.pcView .index #detail .tabBtn li:hover {
+  top: 10px;
+}
+.index #detail .tabBtn li span {
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.index #detail .tabBtn li span i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  background: #1d1d1d;
+  position: relative;
+  margin: 0 0 0 10px;
+  position: relative;
+  top: 2px;
+}
+.index #detail .tabBtn li span i:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #fff;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position: absolute;
+  top: 5px;
+  left: 6px;
+}
+.index #detail .tabBtn li.plan {
+  color: #3265ce;
+}
+.index #detail .tabBtn li.plan span i {
+  background: #3265ce;
+}
+.index #detail .tabBtn li.creative {
+  color: #00a0e9;
+}
+.index #detail .tabBtn li.creative span i {
+  background: #00a0e9;
+}
+.index #detail .tabBtn li.analyze {
+  color: #7abc1c;
+}
+.index #detail .tabBtn li.analyze span i {
+  background: #7abc1c;
+}
+.index #detail .tabBtn li.active {
+  color: #fff;
+  pointer-events: none;
+}
+.index #detail .tabBtn li.active span i {
+  background: #fff;
+}
+.index #detail .tabBtn li.active.plan {
+  background: #3265ce;
+}
+.index #detail .tabBtn li.active.plan span i:before {
+  border-color: #3265ce;
+}
+.index #detail .tabBtn li.active.creative {
+  background: #00a0e9;
+}
+.index #detail .tabBtn li.active.creative span i:before {
+  border-color: #00a0e9;
+}
+.index #detail .tabBtn li.active.analyze {
+  background: #7abc1c;
+}
+.index #detail .tabBtn li.active.analyze span i:before {
+  border-color: #7abc1c;
+}
+.index #detail .serviceContent {
+  background: #fff;
+}
+.index #detail .serviceContent .serviceContentHead {
+  padding: 90px 250px 120px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.index #detail .serviceContent .serviceContentHead .ttl01 {
+  position: relative;
+  z-index: 2;
+}
+.index #detail .serviceContent .serviceContentHead .ttl01 .langEn {
+  font-size: 6rem;
+}
+.index #detail .serviceContent .serviceContentHead .ttl01 .langEn:before {
+  background: #fff;
+}
+.index #detail .serviceContent .serviceContentHead .ttl01 + p {
+  text-align: center;
+  font-size: 1.6rem;
+  position: relative;
+  z-index: 2;
+}
+.index #detail .serviceContent .serviceContentHead .ttl01.animate + p {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.index #detail .serviceContent .serviceContentHead .ttl01.animated + p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .serviceContent .serviceContentHead figure {
+  width: 27%;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.index #detail .serviceContent .serviceContentHead figure.animate {
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transform: translateY(-50%) scale(0.9);
+  -ms-transform: translateY(-50%) scale(0.9);
+  transform: translateY(-50%) scale(0.9);
+  -webkit-transition-timing-function: cubic-bezier(0.635, 0.255, 0.49, 2);
+  -o-transition-timing-function: cubic-bezier(0.635, 0.255, 0.49, 2);
+  transition-timing-function: cubic-bezier(0.635, 0.255, 0.49, 2);
+  opacity: 0;
+}
+.index #detail .serviceContent .serviceContentHead figure.animated {
+  -webkit-transform: translateY(-50%) scale(1);
+  -ms-transform: translateY(-50%) scale(1);
+  transform: translateY(-50%) scale(1);
+  opacity: 1;
+}
+.index #detail .serviceContent .serviceContentBody {
+  padding: 5% 8.33% 8.33%;
+}
+.index #detail .serviceContent .serviceContentBodySection {
+  position: relative;
+  clear: both;
+}
+.index #detail .serviceContent .serviceContentBodySection + .serviceContentBodySection {
+  padding: 60px 0 0;
+  margin: 60px 0 0;
+  border-top: 1px solid #d2d8d8;
+}
+.index #detail .serviceContent .serviceContentBodySection figure {
+  width: 50%;
+  float: left;
+}
+.index #detail .serviceContent .serviceContentBodySection .description {
+  margin: 0 0 0 55%;
+}
+.index #detail .serviceContent .serviceContentBodySection .description .ttl {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+.index #detail .serviceContent .serviceContentBodySection .description .btn {
+  margin: 30px 0 0;
+  width: 250px;
+}
+.index #detail .serviceContent .serviceContentBodySection.layout01 figure {
+  margin: -14% 0 0;
+  width: 34%;
+}
+.index #detail .serviceContent .serviceContentBodySection.layout01 .description {
+  margin: 0 0 0 39%;
+}
+.index #detail .serviceContent .serviceContentBodySection.layout02 figure {
+  float: right;
+}
+.index #detail .serviceContent .serviceContentBodySection.layout02 .description {
+  margin: 0 55% 0 0;
+}
+.index #detail .serviceContent .serviceContentBodySection.animate figure {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.index #detail .serviceContent .serviceContentBodySection.animate .description .ttl {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.index #detail .serviceContent .serviceContentBodySection.animate .description p {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.index #detail .serviceContent .serviceContentBodySection.animate .description .btn {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  transform: translateY(30px);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-delay: 0.6s;
+  -o-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.index #detail .serviceContent .serviceContentBodySection.animate.animated figure {
+  opacity: 1;
+}
+.index #detail .serviceContent .serviceContentBodySection.animate.animated .description .ttl {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .serviceContent .serviceContentBodySection.animate.animated .description p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .serviceContent .serviceContentBodySection.animate.animated .description .btn {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .serviceContent#plan .serviceContentHead {
+  background: #3265ce;
+}
+.index #detail .serviceContent#creative .serviceContentHead {
+  background: #00a0e9;
+}
+.index #detail .serviceContent#analyze .serviceContentHead {
+  background: #7abc1c;
+}
+.index #detail .serviceContent.active .serviceContentHead .ttl01 .langEn {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .serviceContent.active .serviceContentHead .ttl01 .langEn:before {
+  -webkit-transform: translateX(-50%) scaleX(1);
+  -ms-transform: translateX(-50%) scaleX(1);
+  transform: translateX(-50%) scaleX(1);
+}
+.index #detail .serviceContent.active .serviceContentHead .ttl01 .langJp {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .serviceContent.active .serviceContentHead .ttl01 + p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.index #detail .serviceContent.active .serviceContentHead figure {
+  -webkit-transform: translateY(-50%) scale(1);
+  -ms-transform: translateY(-50%) scale(1);
+  transform: translateY(-50%) scale(1);
+  opacity: 1;
+}
+
+/* -----------------------------------------------------------------------------
+
+ min-width: 751px
+
+----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+
+ max-width: 1240px
+
+----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+
+ max-width: 1000px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  .index .illustMain {
+    top: 130px;
+    margin: 0 0 0 273px;
+  }
+  .index #intro .ttl .sp {
+    display: block;
+  }
+  .index #detail .tabBtn {
+    height: auto;
+  }
+  .index #detail .tabBtn li {
+    width: calc((100% - 6px) / 3);
+  }
+  .index #detail .tabBtn li + li {
+    margin: 0 0 0 3px;
+  }
+  .index #detail .tabBtn li span {
+    height: 55px;
+    line-height: 55px;
+    font-size: 1.4rem;
+  }
+  .index #detail .tabBtn li span i {
+    width: 14px;
+    height: 14px;
+    margin: 0 0 0 5px;
+    top: 1px;
+  }
+  .index #detail .tabBtn li span i:before {
+    width: 3px;
+    height: 3px;
+    top: 4px;
+    left: 5px;
+  }
+  .index #detail .serviceContent .serviceContentHead {
+    padding: 30px 15px 60px;
+  }
+  .index #detail .serviceContent .serviceContentHead .ttl01 {
+    margin: 0 0 20px;
+  }
+  .index #detail .serviceContent .serviceContentHead .ttl01 .langEn {
+    font-size: 3.5rem;
+  }
+  .index #detail .serviceContent .serviceContentHead .ttl01 + p {
+    font-size: 1.5rem;
+  }
+  .index #detail .serviceContent .serviceContentHead figure {
+    display: none;
+  }
+  .index #detail .serviceContent .serviceContentBody {
+    padding: 0 20px 60px;
+    margin: -30px 0 0;
+  }
+  .index #detail .serviceContent .serviceContentBodySection + .serviceContentBodySection {
+    padding: 30px 0 0;
+    margin: 30px 0 0;
+  }
+  .index #detail .serviceContent .serviceContentBodySection figure {
+    width: auto;
+    float: none;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 50vw;
+    max-height: 318px;
+    overflow: hidden;
+  }
+  .index #detail .serviceContent .serviceContentBodySection figure img {
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .index #detail .serviceContent .serviceContentBodySection .description {
+    margin: 15px 0 0;
+  }
+  .index #detail .serviceContent .serviceContentBodySection .description .ttl {
+    font-size: 1.9rem;
+    margin: 0 0 5px;
+  }
+  .index #detail .serviceContent .serviceContentBodySection .description .btn {
+    margin: 20px auto 0;
+    width: auto;
+    max-width: 250px;
+  }
+  .index #detail .serviceContent .serviceContentBodySection.layout01 figure {
+    margin: 0 auto;
+    width: auto;
+  }
+  .index #detail .serviceContent .serviceContentBodySection.layout01 .description {
+    margin: 15px 0 0;
+  }
+  .index #detail .serviceContent .serviceContentBodySection.layout02 figure {
+    float: none;
+  }
+  .index #detail .serviceContent .serviceContentBodySection.layout02 .description {
+    margin: 15px 0 0;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 750px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 750px) {
+  .index .illustMain {
+    top: -2px;
+    margin: 0 0 0 100px;
+  }
+  .index .illustMain .imgBase {
+    width: 202px;
+  }
+  .index .illustMain .imgAnime.imgAnime01 {
+    top: 8px;
+    left: 102px;
+    width: 33px;
+  }
+  .index .illustMain .imgAnime.imgAnime02 {
+    top: 67px;
+    left: 141px;
+    width: 22px;
+  }
+  .index .illustMain .imgAnime.imgAnime03 {
+    top: 87px;
+    left: 44px;
+    width: 18px;
+  }
+  .index #intro .ttl {
+    font-size: 1.7rem;
+    margin: 0 0 20px;
+  }
+  .index #intro p {
+    font-size: 1.4rem;
+    line-height: inherit;
+  }
+  .index #list .category {
+    margin: 0 0 35px;
+  }
+  .index #list .category .categoryTtl {
+    font-size: 2rem;
+    margin: 0 0 20px;
+  }
+  .index #list .category .categoryTtl i {
+    font-size: 1.8rem;
+  }
+  .index #list .category .categoryList {
+    margin: -10px -5px 0;
+    text-align: left;
+  }
+  .index #list .category .categoryList li {
+    min-width: inherit;
+    padding: 9px 20px;
+    font-size: 1.1rem;
+    margin: 10px 5px 0;
+  }
+  .index #list .category .categoryList li.sort-all {
+    min-width: 70px;
+  }
+}
+/* -----------------------------------------------------------------------------
+
+ max-width: 374px
+
+----------------------------------------------------------------------------- */

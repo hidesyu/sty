@@ -1,0 +1,1212 @@
+/* -----------------------------------------------------------------------------
+
+ works.css
+
+----------------------------------------------------------------------------- */
+.section.animate {
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s; }
+  .section.animate.animated {
+    opacity: 1; }
+
+.worksList {
+  margin: -30px 0 0 -30px; }
+  .worksList .worksListBox {
+    width: calc(100%/3 - 30px);
+    float: left;
+    margin: 30px 0 0 30px;
+    background: #fff; }
+    .worksList .worksListBox figure {
+      overflow: hidden; }
+      .worksList .worksListBox figure img {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
+    .worksList .worksListBox a {
+      display: block; }
+      .pcView .worksList .worksListBox a:hover {
+        -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); }
+        .pcView .worksList .worksListBox a:hover figure img {
+          -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          transform: scale(1.05); }
+    .worksList .worksListBox .worksListBoxInner {
+      padding: 20px 25px; }
+    .worksList .worksListBox .worksListBoxTtl {
+      font-size: 2rem;
+      line-height: 1.4;
+      font-weight: 700;
+      padding: 0 0 15px;
+      margin: 0 0 15px;
+      border-bottom: 1px solid #d2d8d8; }
+    .worksList .worksListBox .worksListBoxInfo {
+      line-height: 1.3; }
+      .worksList .worksListBox .worksListBoxInfo dl + dl {
+        margin: 5px 0 0; }
+      .worksList .worksListBox .worksListBoxInfo dl dd {
+        margin: 5px 0 0; }
+    .worksList .worksListBox .worksListBoxCategory {
+      padding: 20px 0 0;
+      margin: -8px 0 0 -8px;
+      font-size: 0; }
+      .worksList .worksListBox .worksListBoxCategory li {
+        display: inline-block;
+        padding: 7px 15px;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 8px 0 0 8px;
+        background: #ececec; }
+  .worksList.animate {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s; }
+    .worksList.animate.animated {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); }
+
+.detail #beginning {
+  min-height: 290px;
+  position: relative;
+  z-index: 2; }
+  .detail #beginning .detail {
+    padding: 0 55% 50px 60px;
+    position: relative;
+    z-index: 2; }
+    .detail #beginning .detail .lead {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1.4; }
+    .detail #beginning .detail .info {
+      margin: 20px 0 0;
+      line-height: 1.3; }
+      .detail #beginning .detail .info dl + dl {
+        margin: 10px 0 0;
+        padding: 10px 0 0;
+        border-top: 2px solid #fff; }
+      .detail #beginning .detail .info dl dt {
+        font-size: 1.6rem; }
+      .detail #beginning .detail .info dl dd {
+        margin: 5px 0 0;
+        font-size: 1.6rem; }
+    .detail #beginning .detail .btnWrap {
+      padding: 15px 0 0;
+      margin: -15px 0 0 -15px; }
+      .detail #beginning .detail .btnWrap .btn {
+        min-width: 200px;
+        float: left;
+        margin: 15px 0 0 15px; }
+  .detail #beginning .img {
+    position: absolute;
+    top: -15px;
+    left: 43%;
+    margin: 0  0 50px; }
+    .detail #beginning .img figure {
+      width: 688px;
+      height: 376px;
+      padding: 27px 0 0;
+      position: relative; }
+      .detail #beginning .img figure:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background: url("../img/works/img_desctop.png") no-repeat center center/cover; }
+      .detail #beginning .img figure span {
+        display: block;
+        width: 507px;
+        margin: 0 auto;
+        background: #555;
+        overflow: hidden;
+        position: relative; }
+        .detail #beginning .img figure span:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 3;
+          width: 100%;
+          height: 100%;
+          background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0)));
+          background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
+          background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
+          background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
+          -webkit-transform: skewX(-30deg) translateX(-100%);
+          -webkit-transition-duration: 1s;
+          -o-transition-duration: 1s;
+          transition-duration: 1s;
+          -webkit-transition-delay: 1s;
+          -o-transition-delay: 1s;
+          transition-delay: 1s; }
+  .detail #beginning.animate .detail .lead {
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+  .detail #beginning.animate .detail .info {
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s; }
+  .detail #beginning.animate .detail .btnWrap {
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    transition-delay: 0.6s; }
+  .detail #beginning.animate .img {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+    .detail #beginning.animate .img figure span img {
+      opacity: 0;
+      -webkit-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-delay: 1s;
+      -o-transition-delay: 1s;
+      transition-delay: 1s; }
+  .detail #beginning.animate.animated .detail .lead {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0); }
+  .detail #beginning.animate.animated .detail .info {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0); }
+  .detail #beginning.animate.animated .detail .btnWrap {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0); }
+  .detail #beginning.animate.animated .img {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+    .detail #beginning.animate.animated .img figure span:before {
+      -webkit-transform: skewX(-30deg) translateX(100%); }
+    .detail #beginning.animate.animated .img figure span img {
+      opacity: 1; }
+.detail #outline {
+  margin-top: 0; }
+  .detail #outline .content {
+    padding-top: 10%; }
+.detail #point {
+  z-index: 2; }
+  .detail #point .ttl01 {
+    position: relative;
+    z-index: 2; }
+  .detail #point .illust {
+    position: absolute; }
+    .detail #point .illust div {
+      -webkit-animation: vertical 1s ease-in-out infinite alternate;
+      animation: vertical 1s ease-in-out infinite alternate;
+      position: relative; }
+    .detail #point .illust .imgAnime {
+      position: absolute; }
+    .detail #point .illust.illust01 {
+      top: 10px;
+      left: 60px; }
+      .detail #point .illust.illust01 .imgBase {
+        width: 492px; }
+      .detail #point .illust.illust01 .imgAnime.imgAnime01 {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        width: 182px;
+        top: 59px;
+        left: 65px; }
+      .detail #point .illust.illust01 .imgAnime.imgAnime02 {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        width: 130px;
+        top: 349px;
+        left: 250px; }
+    .detail #point .illust.illust02 {
+      top: 30px;
+      left: 44px; }
+      .detail #point .illust.illust02 .imgBase {
+        width: 455px; }
+    .detail #point .illust.illust03 {
+      top: -30px;
+      left: 0; }
+      .detail #point .illust.illust03 .imgBase {
+        width: 530px; }
+  .detail #point ul {
+    padding: 0 0 0 565px; }
+    .detail #point ul li {
+      position: relative;
+      padding: 0 0 0 32px;
+      font-size: 1.7rem;
+      font-weight: 500; }
+      .detail #point ul li + li {
+        margin: 30px 0 0; }
+      .detail #point ul li i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 4px;
+        left: 0;
+        font-size: 1.2rem;
+        line-height: 25px;
+        text-align: center;
+        color: #b5b5b5; }
+      .detail #point ul li span {
+        display: block;
+        font-size: 1.3rem; }
+    .detail #point ul.animate li {
+      opacity: 0;
+      -webkit-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+      transform: translateY(30px);
+      -webkit-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s; }
+    .detail #point ul.animate.animated li {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); }
+.detail #process .processCont .processContBox {
+  position: relative;
+  padding: 0 0 30px 225px;
+  overflow: hidden;
+  min-height: 250px; }
+  .detail #process .processCont .processContBox + .processContBox {
+    margin: 15px 0 0; }
+  .detail #process .processCont .processContBox figure {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/common/bg01.svg") repeat left top/2px;
+    background-attachment: fixed;
+    padding: 12px; }
+    .detail #process .processCont .processContBox figure:before {
+      content: "";
+      width: 1px;
+      height: 100%;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      background: #1d1d1d;
+      margin: 15px 0 0; }
+    .detail #process .processCont .processContBox figure span {
+      background: #fff;
+      display: block;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%; }
+      .detail #process .processCont .processContBox figure span img {
+        width: 86px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+  .detail #process .processCont .processContBox .processContBoxTtl {
+    margin: 0 0 15px;
+    font-size: 2rem;
+    font-weight: 700; }
+    .detail #process .processCont .processContBox .processContBoxTtl b {
+      display: block;
+      color: #acb1b1;
+      font-weight: 600;
+      font-size: 1.3rem; }
+      .detail #process .processCont .processContBox .processContBoxTtl b span {
+        font-weight: 900;
+        font-size: 3rem;
+        padding: 0 0 0 0.1em; }
+  .detail #process .processCont .processContBox:last-child {
+    padding-bottom: 0;
+    min-height: 180px; }
+    .detail #process .processCont .processContBox:last-child figure:before {
+      display: none; }
+  .detail #process .processCont .processContBox.animate figure {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s; }
+    .detail #process .processCont .processContBox.animate figure:before {
+      -webkit-transform-origin: center top;
+      -ms-transform-origin: center top;
+      transform-origin: center top;
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      transform: scale(0);
+      -webkit-transition-duration: 3s;
+      -o-transition-duration: 3s;
+      transition-duration: 3s;
+      -webkit-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s; }
+    .detail #process .processCont .processContBox.animate figure img {
+      opacity: 0;
+      -webkit-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-delay: 0.5s;
+      -o-transition-delay: 0.5s;
+      transition-delay: 0.5s; }
+  .detail #process .processCont .processContBox.animate .processContBoxTtl {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+  .detail #process .processCont .processContBox.animate p {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s; }
+  .detail #process .processCont .processContBox.animate.animated figure {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    .detail #process .processCont .processContBox.animate.animated figure:before {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+    .detail #process .processCont .processContBox.animate.animated figure img {
+      opacity: 1; }
+  .detail #process .processCont .processContBox.animate.animated .processContBoxTtl {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  .detail #process .processCont .processContBox.animate.animated p {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+.detail #voice .voiceCont {
+  position: relative;
+  padding: 30px 0 0; }
+  .detail #voice .voiceCont .illust {
+    margin: 0 auto;
+    position: relative; }
+    .detail #voice .voiceCont .illust div {
+      -webkit-animation: vertical 1s ease-in-out infinite alternate;
+      animation: vertical 1s ease-in-out infinite alternate;
+      position: relative; }
+  .detail #voice .voiceCont .voiceContBox .balloon {
+    width: 370px;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 15px 20px 20px;
+    position: absolute;
+    z-index: 2; }
+    .detail #voice .voiceCont .voiceContBox .balloon:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      position: absolute; }
+    .detail #voice .voiceCont .voiceContBox .balloon .voiceContBoxTtl {
+      font-size: 1.3rem;
+      font-weight: 700;
+      padding: 0 0 5px;
+      margin: 0 0 10px;
+      border-bottom: 1px solid #d2d8d8; }
+    .detail #voice .voiceCont .voiceContBox .balloon dl dt {
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin: 0 0 8px; }
+    .detail #voice .voiceCont .voiceContBox .balloon dl dd p a {
+      text-decoration: underline; }
+      .detail #voice .voiceCont .voiceContBox .balloon dl dd p a:hover {
+        text-decoration: none; }
+    .detail #voice .voiceCont .voiceContBox .balloon.animate {
+      opacity: 0;
+      -webkit-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+      transform: translateY(30px);
+      -webkit-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s; }
+      .detail #voice .voiceCont .voiceContBox .balloon.animate.animated {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0); }
+  .detail #voice .voiceCont .voiceContBox.voiceContBox01 .balloon {
+    -webkit-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+  .detail #voice .voiceCont .voiceContBox.voiceContBox02 .balloon {
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s; }
+  .detail #voice .voiceCont.voiceCont01 .illust {
+    width: 512px;
+    left: 25px; }
+    .detail #voice .voiceCont.voiceCont01 .illust .imgBase {
+      width: 512px; }
+    .detail #voice .voiceCont.voiceCont01 .illust .imgAnime {
+      position: absolute; }
+      .detail #voice .voiceCont.voiceCont01 .illust .imgAnime.imgAnime01 {
+        width: 127px;
+        top: 20px;
+        left: 223px; }
+      .detail #voice .voiceCont.voiceCont01 .illust .imgAnime.imgAnime02 {
+        width: 95px;
+        top: 61px;
+        left: 31px; }
+      .detail #voice .voiceCont.voiceCont01 .illust .imgAnime.imgAnime03 {
+        width: 39px;
+        top: 187px;
+        left: 389px; }
+  .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox01 .balloon {
+    bottom: 330px;
+    left: 67px; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox01 .balloon:before {
+      border-color: #fff transparent transparent transparent;
+      border-width: 27px 0 0 27px;
+      top: 100%;
+      right: 69px; }
+  .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox02 .balloon {
+    bottom: 360px;
+    right: 67px; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox02 .balloon:before {
+      border-color: #fff transparent transparent transparent;
+      border-width: 27px 27px 0 0;
+      top: 100%;
+      left: 69px; }
+  .detail #voice .voiceCont.voiceCont02 .illust {
+    width: 478px;
+    left: 42px; }
+    .detail #voice .voiceCont.voiceCont02 .illust .imgBase {
+      width: 478px; }
+    .detail #voice .voiceCont.voiceCont02 .illust .imgAnime {
+      position: absolute; }
+      .detail #voice .voiceCont.voiceCont02 .illust .imgAnime.imgAnime01 {
+        width: 156px;
+        top: 9px;
+        left: 1px; }
+      .detail #voice .voiceCont.voiceCont02 .illust .imgAnime.imgAnime02 {
+        width: 184px;
+        top: 81px;
+        left: 294px; }
+  .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox01 .balloon {
+    bottom: 90px;
+    left: 67px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox01 .balloon:before {
+      border-color: transparent transparent transparent #fff;
+      border-width: 27px 0 0 27px;
+      left: 100%;
+      bottom: 25px; }
+  .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox02 .balloon {
+    bottom: 390px;
+    right: 40px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox02 .balloon:before {
+      border-color: #fff transparent transparent transparent;
+      border-width: 27px 27px 0 0;
+      top: 100%;
+      left: 50px; }
+  .detail #voice .voiceCont.voiceCont03 .illust {
+    width: 583px;
+    left: 8px; }
+    .detail #voice .voiceCont.voiceCont03 .illust .imgBase {
+      width: 583px; }
+    .detail #voice .voiceCont.voiceCont03 .illust .imgAnime {
+      position: absolute; }
+      .detail #voice .voiceCont.voiceCont03 .illust .imgAnime.imgAnime01 {
+        width: 97px;
+        top: 86px;
+        left: 91px; }
+      .detail #voice .voiceCont.voiceCont03 .illust .imgAnime.imgAnime02 {
+        width: 333px;
+        top: 323px;
+        left: 82px; }
+      .detail #voice .voiceCont.voiceCont03 .illust .imgAnime.imgAnime03 {
+        width: 172px;
+        top: 253px;
+        left: 359px; }
+  .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox01 .balloon {
+    bottom: 100px;
+    left: 0; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox01 .balloon:before {
+      border-color: transparent transparent transparent #fff;
+      border-width: 27px 0 0 27px;
+      left: 100%;
+      bottom: 25px; }
+  .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox02 .balloon {
+    bottom: 230px;
+    right: 0; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox02 .balloon:before {
+      border-color: #fff transparent transparent transparent;
+      border-width: 27px 27px 0 0;
+      top: 100%;
+      left: 50px; }
+.detail #other {
+  margin-top: 50px; }
+  .detail #other .sectionTtl .langEn {
+    font-size: 3.5rem; }
+  .detail #other .sectionTtl .langJp {
+    font-size: 1.6rem; }
+  .detail #other .sectionTtl span + span {
+    margin: 10px 0 0; }
+  .detail #other .btn {
+    width: 260px;
+    margin: 40px auto 0; }
+
+.index .illustMain {
+  top: 115px;
+  margin: 0 0 0 440px; }
+  .index .illustMain .imgAnime {
+    position: absolute; }
+    .index .illustMain .imgAnime.imgAnime01 {
+      top: 18px;
+      left: 185px;
+      width: 81px; }
+    .index .illustMain .imgAnime.imgAnime02 {
+      top: 48px;
+      left: 57px;
+      width: 73px;
+      -webkit-transform: skewY(180deg);
+      -ms-transform: skewY(180deg);
+      transform: skewY(180deg); }
+    .index .illustMain .imgAnime.imgAnime03 {
+      top: 31px;
+      left: 368px;
+      width: 62px;
+      -webkit-transform: rotateY(180deg);
+      transform: rotateY(180deg); }
+.index #intro .ttl {
+  font-size: 2.5rem;
+  margin: 0 0 30px;
+  font-weight: 700; }
+  .index #intro .ttl.animate {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s; }
+  .index #intro .ttl.animated {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+.index #intro p {
+  font-size: 1.5rem;
+  line-height: 2.1; }
+  .index #intro p.animate {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s; }
+  .index #intro p.animated {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+.index #list .category {
+  text-align: center;
+  padding: 0 0 50px; }
+  .index #list .category .categoryTtl {
+    font-size: 2.2rem;
+    margin: 0 0 25px; }
+    .index #list .category .categoryTtl i {
+      font-size: 2rem;
+      margin: 0 0.2em 0 0; }
+  .index #list .category .categoryList {
+    font-size: 0;
+    margin: -20px 130px 0; }
+    .index #list .category .categoryList li {
+      display: inline-block;
+      min-width: 180px;
+      padding: 9px 20px;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 20px 10px 0;
+      background: #fff;
+      cursor: pointer;
+      -webkit-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s; }
+      .pcView .index #list .category .categoryList li:hover {
+        -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2); }
+      .index #list .category .categoryList li.sort-all {
+        min-width: 100px; }
+      .index #list .category .categoryList li.active {
+        background: #1d1d1d;
+        color: #fff;
+        pointer-events: none; }
+.index #list .worksList {
+  display: flex;
+  flex-wrap: wrap; }
+  .index #list .worksList .worksListBox {
+    opacity: 0;
+    visibility: hidden; }
+    .index #list .worksList .worksListBox.hide {
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden; }
+    .index #list .worksList .worksListBox.show {
+      visibility: visible;
+      -webkit-animation: boxShow 0.5s 0.2s forwards;
+      animation: boxShow 0.5s 0.2s forwards; }
+
+/* -----------------------------------------------------------------------------
+
+ min-width: 751px
+
+----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+
+ max-width: 1240px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 1240px) {
+  .detail #voice .voiceCont .voiceContBox.voiceContBox01 .balloon {
+    left: 0 !important; }
+  .detail #voice .voiceCont .voiceContBox.voiceContBox02 .balloon {
+    right: 0 !important; } }
+/* -----------------------------------------------------------------------------
+
+ max-width: 1000px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  .worksList {
+    margin: -15px 0 0 -15px; }
+    .worksList .worksListBox {
+      width: calc(100%/3 - 15px);
+      margin: 15px 0 0 15px; }
+      .worksList .worksListBox .worksListBoxInner {
+        padding: 15px 20px; }
+      .worksList .worksListBox .worksListBoxTtl {
+        font-size: 1.5rem;
+        padding: 0 0 10px;
+        margin: 0 0 10px; }
+      .worksList .worksListBox .worksListBoxInfo {
+        font-size: 1rem; }
+        .worksList .worksListBox .worksListBoxInfo dl dd {
+          margin: 5px 0 0; }
+
+  .detail #beginning {
+    min-height: inherit; }
+    .detail #beginning .detail {
+      padding: 0 310px 50px 0; }
+      .detail #beginning .detail .lead {
+        font-size: 2.2rem; }
+      .detail #beginning .detail .btnWrap .btn {
+        min-width: inherit;
+        display: inline-block; }
+        .detail #beginning .detail .btnWrap .btn a {
+          padding: 0 35px 0 20px;
+          font-size: 1.1rem; }
+    .detail #beginning .img {
+      top: 0;
+      left: 100%;
+      margin: 0 0 50px -320px; }
+      .detail #beginning .img figure {
+        padding: 14px 0 0;
+        width: 344px;
+        height: 188px; }
+        .detail #beginning .img figure span {
+          width: 251px; }
+  .detail #outline .content {
+    padding-top: 6%; }
+  .detail #point .illust {
+    position: relative;
+    margin: 0 auto; }
+    .detail #point .illust.illust01 {
+      width: 492px;
+      top: inherit;
+      left: inherit; }
+      .detail #point .illust.illust01 .imgBase {
+        width: 492px; }
+    .detail #point .illust.illust02 {
+      width: 455px;
+      top: inherit;
+      left: inherit; }
+      .detail #point .illust.illust02 .imgBase {
+        width: 455px; }
+    .detail #point .illust.illust03 {
+      width: 530px;
+      top: inherit;
+      left: inherit; }
+      .detail #point .illust.illust03 .imgBase {
+        width: 530px; }
+  .detail #point ul {
+    padding: 30px 0 0; }
+  .detail #process .processCont .processContBox {
+    padding: 0;
+    min-height: inherit !important; }
+    .detail #process .processCont .processContBox + .processContBox {
+      margin: 30px 0 0; }
+    .detail #process .processCont .processContBox figure {
+      width: 84px;
+      height: 84px;
+      background-attachment: inherit;
+      padding: 6px; }
+      .detail #process .processCont .processContBox figure:before {
+        display: none; }
+      .detail #process .processCont .processContBox figure span img {
+        width: 40px; }
+    .detail #process .processCont .processContBox .processContBoxTtl {
+      margin: 0 0 15px;
+      padding: 0 0 0 100px;
+      font-weight: 700;
+      min-height: 84px;
+      line-height: 1.5; }
+  .detail #voice .voiceCont {
+    position: relative;
+    padding: 20px 0 0; }
+    .detail #voice .voiceCont .voiceContBox .balloon {
+      width: 40%; }
+      .detail #voice .voiceCont .voiceContBox .balloon dl dt {
+        font-size: 1.6rem; }
+        .detail #voice .voiceCont .voiceContBox .balloon dl dt br {
+          display: none; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox01 .balloon {
+      bottom: 130px; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox02 .balloon {
+      bottom: 150px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox01 .balloon {
+      bottom: 100px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox02 .balloon {
+      bottom: 290px; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox01 .balloon {
+      bottom: 150px; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox02 .balloon {
+      bottom: 280px; }
+  .detail #other .sectionTtl .langEn {
+    font-size: 2.6rem; }
+  .detail #other .sectionTtl .langJp {
+    font-size: 1.4rem; }
+  .detail #other .btn {
+    margin: 35px auto 0; }
+
+  .index .illustMain {
+    top: 40px;
+    margin: 0 0 0 349px; }
+  .index #intro .ttl .sp {
+    display: block; } }
+/* -----------------------------------------------------------------------------
+
+ max-width: 750px
+
+----------------------------------------------------------------------------- */
+@media screen and (max-width: 750px) {
+  .worksList {
+    margin: -20px 0 0; }
+    .worksList .worksListBox {
+      width: auto;
+      float: none;
+      margin: 20px 0 0;
+      /*opacity: 1!important;
+      -webkit-transform: translateY(0)!important;
+          -ms-transform: translateY(0)!important;
+              transform: translateY(0)!important;
+      -webkit-transition-delay: inherit!important;
+           -o-transition-delay: inherit!important;
+              transition-delay: inherit!important;*/ }
+    .worksList.slider {
+      padding: 0;
+      margin: 0; }
+      .worksList.slider .worksListBox {
+        margin: 0 20px;
+        float: left; }
+      .worksList.slider .slick-list {
+        overflow: visible; }
+      .worksList.slider .slick-arrow {
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        margin: -15px 0 0;
+        z-index: 11;
+        border-top: 2px solid #000;
+        border-right: 2px solid #000;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        text-indent: -9999px;
+        -webkit-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        transition-duration: 0.5s; }
+        .worksList.slider .slick-arrow.slick-prev {
+          left: -5px;
+          -webkit-transform: rotate(225deg);
+          -ms-transform: rotate(225deg);
+          transform: rotate(225deg); }
+          .worksList.slider .slick-arrow.slick-prev.slick-disabled {
+            left: -50px;
+            opacity: 0;
+            visibility: hidden; }
+        .worksList.slider .slick-arrow.slick-next {
+          right: -5px; }
+          .worksList.slider .slick-arrow.slick-next.slick-disabled {
+            right: -50px;
+            opacity: 0;
+            visibility: hidden; }
+
+  .detail #beginning {
+    margin: 0 0 -45px; }
+    .detail #beginning .detail {
+      padding: 0 0 225px; }
+      .detail #beginning .detail .lead {
+        font-size: 1.9rem; }
+      .detail #beginning .detail .info {
+        margin: 10px 0 0; }
+        .detail #beginning .detail .info dl + dl {
+          border-top: 1px solid #fff;
+          font-size: 1.2rem; }
+        .detail #beginning .detail .info dl dd {
+          margin: 3px 0 0; }
+    .detail #beginning .img {
+      top: inherit;
+      left: 50%;
+      bottom: 0;
+      margin: 0 0 0 -172px; }
+      .detail #beginning .img figure {
+        padding: 14px 0 0;
+        margin: 0 auto;
+        width: 344px;
+        height: 188px; }
+        .detail #beginning .img figure span {
+          width: 255px; }
+  .detail #outline .content {
+    padding-top: 90px; }
+  .detail #point {
+    margin-top: 130px;
+    z-index: 2; }
+    .detail #point .illust {
+      position: absolute;
+      margin: 0;
+      width: auto; }
+      .detail #point .illust.illust01_01 {
+        left: -33px;
+        top: -120px; }
+        .detail #point .illust.illust01_01 .imgBase {
+          width: 199px; }
+        .detail #point .illust.illust01_01 .imgAnime {
+          -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+          width: 91px;
+          top: 25px;
+          left: 18px; }
+      .detail #point .illust.illust01_02 {
+        left: inherit;
+        right: -10px;
+        top: -20px; }
+        .detail #point .illust.illust01_02 div {
+          -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s; }
+        .detail #point .illust.illust01_02 .imgBase {
+          width: 97px; }
+        .detail #point .illust.illust01_02 .imgAnime {
+          -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+          width: 49px;
+          top: 47px;
+          left: 6px; }
+      .detail #point .illust.illust02_01 {
+        left: -20px;
+        top: -130px; }
+        .detail #point .illust.illust02_01 .imgBase {
+          width: 165px; }
+        .detail #point .illust.illust02_01 .imgAnime {
+          -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+          width: 91px;
+          top: 25px;
+          left: 18px; }
+      .detail #point .illust.illust02_02 {
+        left: inherit;
+        right: -10px;
+        top: -20px; }
+        .detail #point .illust.illust02_02 div {
+          -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s; }
+        .detail #point .illust.illust02_02 .imgBase {
+          width: 97px; }
+        .detail #point .illust.illust02_02 .imgAnime {
+          -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+          width: 49px;
+          top: 47px;
+          left: 6px; }
+      .detail #point .illust.illust03_01 {
+        left: -25px;
+        top: -150px; }
+        .detail #point .illust.illust03_01 .imgBase {
+          width: 199px; }
+        .detail #point .illust.illust03_01 .imgAnime {
+          -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+          width: 91px;
+          top: 25px;
+          left: 18px; }
+      .detail #point .illust.illust03_02 {
+        left: inherit;
+        right: -10px;
+        top: -20px; }
+        .detail #point .illust.illust03_02 div {
+          -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s; }
+        .detail #point .illust.illust03_02 .imgBase {
+          width: 97px; }
+        .detail #point .illust.illust03_02 .imgAnime {
+          -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+          width: 49px;
+          top: 47px;
+          left: 6px; }
+    .detail #point ul {
+      padding: 0; }
+      .detail #point ul li {
+        padding: 0 0 0 30px;
+        font-size: 1.4rem; }
+        .detail #point ul li i {
+          width: 20px;
+          height: 20px;
+          top: 2px;
+          font-size: 0.9rem;
+          line-height: 20px; }
+  .detail #process .processCont .processContBox .processContBoxTtl {
+    font-size: 1.4rem; }
+    .detail #process .processCont .processContBox .processContBoxTtl b {
+      font-size: 1.1rem;
+      margin: 0 0 5px; }
+      .detail #process .processCont .processContBox .processContBoxTtl b span {
+        font-size: 2rem; }
+  .detail #voice .voiceCont {
+    padding: 0; }
+    .detail #voice .voiceCont .voiceContBox {
+      position: relative; }
+      .detail #voice .voiceCont .voiceContBox + .voiceContBox {
+        margin: 30px 0 0; }
+      .detail #voice .voiceCont .voiceContBox .illust {
+        position: absolute; }
+      .detail #voice .voiceCont .voiceContBox .balloon {
+        width: calc(100% - 110px) !important;
+        position: relative;
+        margin: 0; }
+        .detail #voice .voiceCont .voiceContBox .balloon dl dt {
+          font-size: 1.4rem; }
+        .detail #voice .voiceCont .voiceContBox .balloon dl dd {
+          font-size: 1.2rem; }
+      .detail #voice .voiceCont .voiceContBox.voiceContBox01 .illust.illust01_01 div {
+        -webkit-animation-duration: 1.2s;
+        animation-duration: 1.2s; }
+      .detail #voice .voiceCont .voiceContBox.voiceContBox01 .illust.illust01_01 .imgBase {
+        width: 100% !important; }
+      .detail #voice .voiceCont .voiceContBox.voiceContBox01 .balloon {
+        bottom: inherit !important;
+        left: inherit !important; }
+        .detail #voice .voiceCont .voiceContBox.voiceContBox01 .balloon:before {
+          border-color: transparent transparent transparent #fff !important;
+          border-width: 15px 0 0 23px !important;
+          top: inherit !important;
+          right: inherit !important;
+          left: 100% !important; }
+      .detail #voice .voiceCont .voiceContBox.voiceContBox02 .illust.illust01_02 .imgBase {
+        width: 100% !important; }
+      .detail #voice .voiceCont .voiceContBox.voiceContBox02 .balloon {
+        bottom: inherit !important;
+        right: inherit !important;
+        float: right !important; }
+        .detail #voice .voiceCont .voiceContBox.voiceContBox02 .balloon:before {
+          border-color: transparent #fff transparent transparent !important;
+          border-width: 0 23px 15px 0 !important;
+          left: inherit !important;
+          right: 100% !important; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox01 .illust.illust01_01 {
+      width: 110px;
+      left: inherit;
+      right: -22px;
+      bottom: -20px; }
+      .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox01 .illust.illust01_01 .imgAnime {
+        width: 83px;
+        top: 0px;
+        left: 27px; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox01 .balloon:before {
+      bottom: 43px; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox02 .illust.illust01_02 {
+      width: 161px;
+      left: -55px;
+      top: 0; }
+      .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox02 .illust.illust01_02 .imgAnime {
+        width: 28px;
+        top: 13px;
+        left: 69px; }
+    .detail #voice .voiceCont.voiceCont01 .voiceContBox.voiceContBox02 .balloon:before {
+      top: 43px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox01 .illust.illust01_01 {
+      width: 300px;
+      left: inherit;
+      right: -175px;
+      bottom: -40px; }
+      .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox01 .illust.illust01_01 .imgAnime {
+        width: 97px;
+        top: 5px;
+        left: 1px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox01 .balloon:before {
+      bottom: 43px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox02 .illust.illust01_02 {
+      width: 120px;
+      left: -10px;
+      top: 20px; }
+    .detail #voice .voiceCont.voiceCont02 .voiceContBox.voiceContBox02 .balloon:before {
+      top: 110px; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox01 .illust.illust01_01 {
+      width: 250px;
+      left: inherit;
+      right: -115px;
+      bottom: -25px; }
+      .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox01 .illust.illust01_01 .imgAnime01 {
+        width: 62px;
+        top: 48px;
+        left: 54px; }
+      .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox01 .illust.illust01_01 .imgAnime02 {
+        width: 204px;
+        top: 191px;
+        left: 48px; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox01 .balloon:before {
+      bottom: 43px; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox02 .illust.illust01_02 {
+      width: 200px;
+      left: -85px;
+      top: 0px; }
+      .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox02 .illust.illust01_02 .imgAnime {
+        width: 109px;
+        top: 86px;
+        left: 62px; }
+    .detail #voice .voiceCont.voiceCont03 .voiceContBox.voiceContBox02 .balloon:before {
+      top: 130px; }
+
+  .index .illustMain {
+    width: 165px;
+    top: -10px;
+    margin: 0 0 0 101px; }
+    .index .illustMain .imgBase {
+      width: 165px; }
+    .index .illustMain .imgAnime.imgAnime01 {
+      top: 6px;
+      left: 68px;
+      width: 30px; }
+    .index .illustMain .imgAnime.imgAnime02 {
+      top: 15px;
+      left: 21px;
+      width: 27px; }
+    .index .illustMain .imgAnime.imgAnime03 {
+      top: 98px;
+      left: 134px;
+      width: 24px; }
+  .index #intro .ttl {
+    font-size: 1.7rem;
+    margin: 0 0 20px; }
+  .index #intro p {
+    font-size: 1.4rem;
+    line-height: inherit; }
+  .index #list .category {
+    padding: 0 0 35px; }
+    .index #list .category .categoryTtl {
+      font-size: 2rem;
+      margin: 0 0 20px; }
+      .index #list .category .categoryTtl i {
+        font-size: 1.8rem; }
+    .index #list .category .categoryList {
+      margin: -10px -5px 0;
+      text-align: left; }
+      .index #list .category .categoryList li {
+        min-width: inherit;
+        padding: 9px 20px;
+        font-size: 1.1rem;
+        margin: 10px 5px 0; }
+        .index #list .category .categoryList li.sort-all {
+          min-width: 70px; } }
+/* -----------------------------------------------------------------------------
+
+ max-width: 374px
+
+----------------------------------------------------------------------------- */
+@-webkit-keyframes boxShow {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes boxShow {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
