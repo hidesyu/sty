@@ -109,11 +109,12 @@ Template Name: CONTACT
 				</div>
 				<div class="formGroup rules">
 					<dl>
-						<dt>ご送信の前に、必ず「<a href="/privacypolicy" target="_blank">個人情報保護方針</a>」を<br class="sp">お読みのうえ、ご同意願います。</dt>
+						<!-- <dt>内容に問題がなければチェックしてください。<br class="sp"></dt> -->
+						<!-- <dt>内容に問題がなければ「<a href="/privacypolicy" target="_blank">個人情報保護方針</a>」を<br class="sp">お読みのうえ、ご同意願います。</dt> -->
 						<dd>
 							<div class="checkBox">
 								<input type="checkbox" name="checkSubmit" id="formContactType04" >
-								<label for="formContactType04">個人情報の取り扱いについて、同意する</label>
+								<label for="formContactType04">内容を確認して送信する</label>
 							</div>
 						</dd>
 					</dl>

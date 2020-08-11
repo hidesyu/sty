@@ -7,11 +7,11 @@ Template Name: ABOUT
 
 <main id="main">
 
-	<div class="illust illustMain">
+	<!-- <div class="illust illustMain">
 		<div>
-			<img src="<?php echo get_theme_file_uri( '../img/about/img_illust_main.png') ?>" alt="">
+			<img src="<?#php echo get_theme_file_uri( '../img/about/img_illust_main.png') ?>" alt="">
 		</div>
-	</div>
+	</div> -->
 
 	<h1 class="ttlMain">
 		<span class="langEn"><span>ABOUT</span></span>
@@ -21,18 +21,14 @@ Template Name: ABOUT
 	<section id="intro" class="section">
 		<div class="inner">
 			<div class="content animate">
-				<h2 class="ttl animate">タイトルタイトルタイトルタイトル<br>タイトルタイトルタイトルタイトル</h2>
-				<p class="animate">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-					テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-					テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br class="pc">
-					テキストテキストテキストテキストテキスト<br>
-					テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br class="pc">
-					テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-
-				<p class="animate">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-					テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-					テキストテキストテキストテキストテキストテキストテキストテキスト<br>
-					テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+				<h2 class="ttl animate">
+					<?php the_field('main_copy_1'); ?>
+					<br>
+					<?php the_field('main_copy_2'); ?>
+				</h2>
+				<p class="animate">
+					<?php the_field('main_text'); ?>
+				</p>
 			</div>
 		</div>
 	</section><!--/#intro-->
@@ -47,36 +43,52 @@ Template Name: ABOUT
 				<div class="detail animate">
 					<dl>
 						<dt>代表者</dt>
-						<dd>STY<br class="sp"></dd>
+						<dd>
+							<?php the_field('ceo'); ?>
+							<br class="sp">
+						</dd>
 					</dl>
 					<dl>
 						<dt>創業</dt>
-						<dd>2020年3月4日</dd>
+						<dd><?php the_field('since'); ?></dd>
 					</dl>
 					<dl>
 						<dt>設立</dt>
-						<dd>2020年3月4日</dd>
+						<dd><?php the_field('established'); ?></dd>
 					</dl>
 					<dl>
 						<dt>幹部</dt>
 						<dd>
-							<span class="position">代表</span>山田&nbsp;太郎<br>
-							<span class="position">代表</span>山田&nbsp;太郎<br>
-							<span class="position">代表</span>山田&nbsp;太郎
+							<span class="position">
+								<?php the_field('executive_1_position'); ?>
+							</span>
+							<?php the_field('executive_1_name'); ?>
+							<br>
+							<span class="position">
+								<?php the_field('executive_2_position'); ?>
+							</span>
+							<?php the_field('executive_2_name'); ?>
+							<br>
+							<span class="position">
+								<?php the_field('executive_3_position'); ?>
+							</span>
+							<?php the_field('executive_3_name'); ?>
 						</dd>
 					</dl>
 					<dl>
 						<dt>スタッフ</dt>
-						<dd>10名（2020年3月現在）</dd>
+						<dd>
+							<?php the_field('stuff_count'); ?>名（<?php the_field('current_stuff'); ?>現在
+						</dd>
 					</dl>
 				</div>
-				<div id="map" class="map">
-					<div class="mapBox animate clr">
+				<!-- <div id="map" class="map"> -->
+					<!-- <div class="mapBox animate clr"> -->
 						<!--<div id="mapOsaka" class="mapCanvas"></div>-->
-						<div id="" class="mapCanvas">
-							<iframe src="<?php echo get_theme_file_uri( 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d328') ?>" width="620" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-						<dl>
-							<dt>デュッセルドルフ</dt>
+						<!-- <div id="" class="mapCanvas"> -->
+							<!-- <iframe src="<?#php echo get_theme_file_uri( 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d328') ?>" width="620" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div> -->
+						<!-- <dl> -->
+							<!-- <dt>デュッセルドルフ</dt>
 							<dd>
 								<address>
 									40210<br>
@@ -89,8 +101,8 @@ Template Name: ABOUT
 									Oststrase駅下車 徒歩10分<br>
 									JOststrase駅下車 徒歩11分</p>
 							</dd>
-						</dl>
-					</div>
+						</!-->
+					<!-- </div> -->
 					<!-- <div class="mapBox animate clr"> -->
 						<!--<div id="mapTokyo" class="mapCanvas"></div>-->
 						<!-- <div id="" class="mapCanvas">
@@ -112,7 +124,7 @@ Template Name: ABOUT
 							</dd>
 						</dl> -->
 					<!-- </div> -->
-				</div>
+				<!-- </div> -->
 			</div>
 		</div>
 	</section><!--/#intro-->
@@ -124,29 +136,20 @@ Template Name: ABOUT
 				<span class="langJp">コンタクト</span>
 			</h2>
 			<div class="information clr">
-				<h3 class="ttl">つながる科学研究所株式会社</h3>
+				<h3 class="ttl">STY</h3>
 				<dl>
-					<dt>OSAKA</dt>
-					<dd>〒530-0004<br>
-						大阪市北区堂島浜2-2-28堂島アクシスビル 3F<br>
+					<dt>Dusseldorf</dt>
+					<dd>
+						<!-- 40210<br> -->
+						<!-- Immermanstrase 61 Dusseldorf<br> -->
 						<ul>
-							<li>Tel.<a class="telLink" href="tel:0663439327">06-6343-9327</a></li>
-							<li>Fax.06-6343-9328</li>
-						</ul>
-					</dd>
-				</dl>
-				<dl>
-					<dt>TOKYO</dt>
-					<dd>〒150-0041<br>
-						東京都渋谷区神南1-6-6 OZAWA BUILDING 5F<br>
-						<ul>
-							<li>Tel.<a class="telLink" href="tel:0364169208">03-6416-9208</a></li>
-							<li>Fax.03-6416-9209</li>
+							<li>Tel.<a class="telLink" href="tel:0663439327">0211 3434 5678</a></li>
+							<!-- <li>Fax.06-6343-9328</li> -->
 						</ul>
 					</dd>
 				</dl>
 			</div>
-			<div class="btnContact"><a href="../contact/index.html"><span class="btnInner"><span><i class="fas fa-envelope-open"></i>お問い合わせはこちら</span></span></a></div>
+			<div class="btnContact"><a href="/contact"><span class="btnInner"><span><i class="fas fa-envelope-open"></i>お問い合わせはこちら</span></span></a></div>
 		</div>
 	</section><!--/#contactLower-->
 

@@ -24,8 +24,16 @@ Template Name: SERVICE
 	<section id="intro" class="section">
 		<div class="inner">
 			<div class="content animate">
-				<h2 class="ttl animate">タイトルタイトルタイトル<br class="sp">タイトルタイトルタイトル<br>タイトルタイトルタイトルタイトル</h2>
-				<p class="animate">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+				<h2 class="ttl animate">
+					<?php the_field('main_copy_1'); ?>
+					<br class="sp">
+					<?php the_field('main_copy_2'); ?>
+					<br>
+					<?php the_field('main_copy_3'); ?>
+				</h2>
+				<p class="animate">
+					<?php the_field('main_description'); ?>
+				</p>
 			</div>
 		</div>
 	</section><!--/#intro-->
@@ -34,9 +42,9 @@ Template Name: SERVICE
 		<div class="inner">
 
 			<ul class="tabBtn clr">
-				<li id="tab01" class="plan active"><span>留学サポート<i></i></span></li>
-				<li id="tab02" class="creative"><span>就職サポート<i></i></span></li>
-				<li id="tab03" class="analyze"><span>手続きサポート<i></i></span></li>
+				<li id="tab01" class="plan active"><span><?php the_field('service_tab01'); ?><i></i></span></li>
+				<li id="tab02" class="creative"><span><?php the_field('service_tab02'); ?><i></i></span></li>
+				<li id="tab03" class="analyze"><span><?php the_field('service_tab03'); ?><i></i></span></li>
 			</ul>
 
 			<div id="plan" class="serviceContent tabContent">
@@ -45,46 +53,60 @@ Template Name: SERVICE
 						<span class="langEn">STUDY ABROAD SUPPORT</span>
 						<span class="langJp">留学サポート</span>
 					</h2>
-					<p>テキストテキストテキストテキストテキストテキスト<br class="pc">テキストテキストテキストテキストテキストテキストテキスト</p>
+					<p>
+						<?php the_field('study_support_main_copy_1'); ?>
+						<br class="pc">
+						<?php the_field('study_support_main_copy_2'); ?>
+					</p>
 					<!-- <figure class="animate"><img src="<?#php echo get_theme_file_uri( '/img/index/img_service01.gif') ?>" alt=""></figure> -->
 				</div>
 				<div class="serviceContentBody">
 					<section id="digitalContents" class="serviceContentBodySection layout01 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_plan01.jpg') ?>"></figure>
+						<figure><img src="<?php the_field('each_study_support_img_1'); ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-							<!-- <div class="btn"><a href="../works/index.html#digitalContents"><span>このサービスの事例紹介</span><svg class="iconArrowRight"><use xlink:href="#iconArrowRight"></use></svg></a></div> -->
+							<h3 class="ttl">
+								<?php the_field('each_study_support_title_1'); ?>
+							</h3>
+							<p>
+								<?php the_field('each_study_support_description_1'); ?>
+							</p>
+							<div class="btn"><a href="/service/language-school"><span>サービスの詳細はこちら</span><svg class="iconArrowRight"><use xlink:href="#iconArrowRight"></use></svg></a></div>
 						</div>
 					</section>
 					<section id="sns" class="serviceContentBodySection layout02 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_plan02.jpg') ?>"></figure>
+						<figure><img src="<?php the_field('each_study_support_img_2'); ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-							<!-- <div class="btn"><a href="../works/index.html#sns"><span>このサービスの事例紹介</span><svg class="iconArrowRight"><use xlink:href="#iconArrowRight"></use></svg></a></div> -->
+							<h3 class="ttl">
+								<?php the_field('each_study_support_title_2'); ?>
+							</h3>
+							<p>
+								<?php the_field('each_study_support_description_2'); ?>
+							</p>
+							<div class="btn"><a href="/service/ballet"><span>サービスの詳細はこちら</span><svg class="iconArrowRight"><use xlink:href="#iconArrowRight"></use></svg></a></div>
 						</div>
 					</section>
-					<section id="ec" class="serviceContentBodySection layout03 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_plan03.jpg') ?>"></figure>
+					<!-- <section id="ec" class="serviceContentBodySection layout03 clr animate">
+						<figure><img src="<?#php echo get_theme_file_uri( '/img/service/img_plan03.jpg') ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+							<h3 class="ttl">
+								<?#php the_field('each_study_support_title_3'); ?>
+							</h3>
+							<p>
+								<?#php the_field('each_study_support_description_3'); ?>
+							</p>
 						</div>
 					</section>
 					<section id="advertisementPlanning" class="serviceContentBodySection layout02 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_plan04.jpg') ?>"></figure>
+						<figure><img src="<?#php echo get_theme_file_uri( '/img/service/img_plan04.jpg') ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキスト</p>
+							<h3 class="ttl">
+								<?#php the_field('each_study_support_title_4'); ?>
+							</h3>
+							<p>
+								<?#php the_field('each_study_support_description_4'); ?>
+							</p>
 						</div>
-					</section>
+					</section> -->
 				</div>
 			</div><!--/#plan-->
 
@@ -94,26 +116,31 @@ Template Name: SERVICE
 						<span class="langEn">JOB SUPPORT</span>
 						<span class="langJp">就職サポート</span>
 					</h2>
-					<p>テキストテキストテキストテキストテキストテキスト<br class="pc">テキストテキストテキストテキストテキスト</p>
+					<p>
+						<?php the_field('job_support_main_copy_1'); ?>
+						<br class="pc">
+						<?php the_field('job_support_main_copy_2'); ?>
+					</p>
 					<!-- <figure class="animate"><img src="<?#php echo get_theme_file_uri( '../img/index/img_service02.gif') ?>" alt=""></figure> -->
 				</div>
 				<div class="serviceContentBody">
 					<section id="contentOperation" class="serviceContentBodySection layout03 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_creative01.jpg') ?>"></figure>
+						<figure><img src="<?php the_field('each_job_support_img_1'); ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル<br>タイトルタイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+							<h3 class="ttl"><?php the_field('each_job_support_title_1'); ?></h3>
+							<p>
+								<?php the_field('each_job_support_description_1'); ?>
+							</p>
 							<!-- <div class="btn"><a href="../works/index.html#contentsOperation"><span>このサービスの事例紹介</span><svg class="iconArrowRight"><use xlink:href="#iconArrowRight"></use></svg></a></div> -->
 						</div>
 					</section>
 					<section id="advertisementOperation" class="serviceContentBodySection layout02 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_creative02.jpg') ?>" alt="広告の制作／運用"></figure>
+						<figure><img src="<?php the_field('each_job_support_img_2'); ?>" alt="広告の制作／運用"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+							<h3 class="ttl"><?php the_field('each_job_support_title_2'); ?></h3>
+							<p>
+								<?php the_field('each_job_support_description_2'); ?>
+							</p>
 							<!-- <div class="btn"><a href="../works/index.html#advertisementOperation"><span>このサービスの事例紹介</span><svg class="iconArrowRight"><use xlink:href="#iconArrowRight"></use></svg></a></div> -->
 						</div>
 					</section>
@@ -126,36 +153,41 @@ Template Name: SERVICE
 						<span class="langEn">OTHER SUPPORT</span>
 						<span class="langJp">手続きサポート</span>
 					</h2>
-					<p>テキストテキストテキストテキスト<br class="pc">テキストテキストテキストテキストテキストテキストテキスト</p>
+					<p>
+						<?php the_field('process_support_main_copy_1'); ?>
+						<br class="pc">
+						<?php the_field('process_support_main_copy_2'); ?>
+					</p>
 					<!-- <figure class="animate"><img src="<?#php echo get_theme_file_uri( '../img/index/img_service03.gif') ?>" alt=""></figure> -->
 				</div>
 				<div class="serviceContentBody">
 					<section id="accessAnalysis" class="serviceContentBodySection layout03 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_analyze01.jpg') ?>"></figure>
+						<figure><img src="<?php the_field('each_process_support_img_1'); ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+							<h3 class="ttl"><?php the_field('each_process_support_title_1'); ?></h3>
+							<p>
+								<?php the_field('each_process_support_description_1'); ?>
+							</p>
 						</div>
 					</section>
 					<section id="ui" class="serviceContentBodySection layout02 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_analyze02.jpg') ?>"></figure>
+						<figure><img src="<?php the_field('each_process_support_img_2'); ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+							<h3 class="ttl"><?php the_field('each_process_support_title_2'); ?></h3>
+							<p>
+								<?php the_field('each_process_support_description_2'); ?>
+							</p>
 						</div>
 					</section>
-					<section id="advertisementMeasurement" class="serviceContentBodySection layout03 clr animate">
-						<figure><img src="<?php echo get_theme_file_uri( '/img/service/img_analyze03.jpg') ?>"></figure>
+					<!-- <section id="advertisementMeasurement" class="serviceContentBodySection layout03 clr animate">
+						<figure><img src="<?#php echo get_theme_file_uri( '/img/service/img_analyze03.jpg') ?>"></figure>
 						<div class="description">
-							<h3 class="ttl">タイトルタイトル</h3>
-							<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
-							テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+							<h3 class="ttl"><?#php the_field('each_process_support_title_3'); ?></h3>
+							<p>
+								<?#php the_field('each_process_support_description_3'); ?>
+							</p>
 						</div>
-					</section>
+					</section> -->
 				</div>
 			</div><!--/#analyze-->
 
@@ -173,8 +205,9 @@ Template Name: SERVICE
 				<h3 class="ttl">STY</h3>
 				<dl>
 					<dt>Duesseldorf</dt>
-					<dd>40210<br>
-						Immermanstrase 61 Dusseldorf<br>
+					<dd>
+						<!-- 40210<br> -->
+						<!-- Immermanstrase 61 Dusseldorf<br> -->
 						<ul>
 							<li>Tel.<a class="telLink" href="tel:0663439327">0211 3456 56543</a></li>
 							<!-- <li>Fax.06-6343-9328</li> -->

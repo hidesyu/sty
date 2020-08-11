@@ -2,7 +2,7 @@
 	<div class="pageTop"><svg><use xlink:href="#iconPagetop"></use></svg></div>
 	<div class="inner clr">
 		<div class="footerLogo">
-			<p class="logo"><a href="/"><img src="<?php echo get_theme_file_uri( '/img/common/logo02.svg') ?>" alt="STY"></a></p>
+			<p class="logo"><a href="/"><img src="<?php echo get_theme_file_uri( '/img/common/logo02.png') ?>" alt="STY"></a></p>
 		</div>
 		<div class="footerSitemap">
 			<ul>
@@ -50,11 +50,11 @@
 						</dl> -->
 					</div>
 				</li>
-				<li><a class="parent" href="/works">WORKS</a>
+				<!-- <li><a class="parent" href="/works">WORKS</a>
 					<ul class="child">
 						<li><a href="/works">実績</a></li>
 					</ul>
-				</li>
+				</li> -->
 				<!-- <li><a class="parent" href="/recruit/">RECRUIT</a>
 					<ul class="child">
 						<li><a href="/recruit/#person">求める人物像</a></li>
@@ -71,7 +71,7 @@
 				</li> -->
 			</ul>
 		</div>
-		<small>Copyrights &copy; TSUNAGARU KAGAKU Corporation</small>
+		<small>Copyrights &copy; STY</small>
 	</div>
 </footer><!--/#footer-->
 

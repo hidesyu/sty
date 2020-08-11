@@ -101,7 +101,7 @@ svg {
   display: block;
   width: 162px;
   height: 52px;
-  background-image: url("../img/common/logo02.svg");
+  background-image: url("../img/common/logo02.png");
   background-repeat: no-repeat;
   background-size: contain;
   transition: none;
@@ -215,7 +215,7 @@ svg {
 #header.fixed .logo a {
   width: 149px;
   height: 48px;
-  background-image: url("../img/common/logo02.svg");
+  background-image: url("../img/common/logo02.png");
 }
 #header.fixed #globalNav #globalNavInner ul li a {
   height: 70px;
@@ -1295,7 +1295,7 @@ a.blank:after {
   #header .logo a {
     width: 146px;
     height: 48px;
-    background-image: url("../img/common/logo02.svg");
+    background-image: url("../img/common/logo02.png");
   }
   #header .btnMenu {
     position: absolute;

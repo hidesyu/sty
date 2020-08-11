@@ -71,7 +71,7 @@
 	<div class="pageTop"><svg><use xlink:href="#iconPagetop"></use></svg></div>
 	<div class="inner clr">
 		<div class="footerLogo">
-			<p class="logo"><a href="../../index.html"><img src="<?php echo get_theme_file_uri( '../../img/common/logo02.svg') ?>" alt="つながる科学研究所株式会社"></a></p>
+			<p class="logo"><a href="../../index.html"><img src="<?php echo get_theme_file_uri( '../../img/common/logo02.png') ?>" alt="つながる科学研究所株式会社"></a></p>
 		</div>
 		<div class="footerSitemap">
 			<ul>

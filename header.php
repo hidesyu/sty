@@ -6,11 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 <meta name="format-detection" content="telephone=no">
+<meta name="google-site-verification" content="CoWvL9-smQ-tGq2EwpNMnE-D2tJJcB4IMTm15SrF1jA" />
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
 <title>STY | 留学で生まれる最高の仲間との出会い</title>
-<meta name="description" content="つながる科学研究所は、FacebookやTwitterなどのSNSの運用代行など、企業のソーシャルメディアマーケティングを支援する組織です。">
-<meta name="keywords" content="つながる科学研究所,つな研,ソーシャルメディアマーケティング,SNS運用">
+<meta name="description" content="">
+<meta name="keywords" content="">
 <!--OGP-->
 
 <!--共通js-->
@@ -65,7 +66,9 @@
 <link rel="stylesheet" href="<?php echo get_theme_file_uri( '/css/contact.css') ?>">
 <?php endif; ?>
 
-
+<!-- wp_head出力 -->
+<?php wp_head(); ?>
+<!-- /wp_head出力 -->
 
 <!-- Google Tag Manager -->
 <!-- End Google Tag Manager -->
@@ -78,7 +81,7 @@
 <?php if ( is_home() || is_front_page() ) : ?>
 	<div class="splash">
 		<div class="bg"></div>
-		<div class="logo"><img src="<?php echo get_theme_file_uri( '/img/common/logo01.svg') ?>" alt="つながる科学研究所株式会社"></div>
+		<div class="logo"><img src="<?php echo get_theme_file_uri( '/img/common/logo01.png') ?>" alt="つながる科学研究所株式会社"></div>
 		<div class="paperplane">
 			<div>
 				<img src="<?php echo get_theme_file_uri( '/img/index/img_paperplane.svg') ?>" alt="">
@@ -104,10 +107,10 @@
 			<ul>
 				<li class="about"><a href="/about/"><span>ABOUT</span></a></li>
 				<li class="service"><a href="/service/"><span>SERVICE</span></a></li>
-				<li class="works"><a href="/works/"><span>WORKS</span></a></li>
+				<!-- <li class="works"><a href="/works/"><span>WORKS</span></a></li> -->
 				<!-- <li class="recruit"><a href="/recruit/"><span>RECRUIT</span></a></li> -->
 				<!-- <li class="facebook"><a href="/" target="_blank"><span><svg class="iconFacebook"><use xlink:href="#iconFacebook"></use></svg>Facebook</span></a></li> -->
-				<li class="facebook"><a href="/" target="_blank"><span><svg class="icon-instagram"><use xlink:href="#icon-instagram"></use></svg>Instagram</span></a></li>
+				<li class="facebook"><a href="https://www.instagram.com/sty_ryugaku/?hl=ja" target="_blank"><span><svg class="icon-instagram"><use xlink:href="#icon-instagram"></use></svg>Instagram</span></a></li>
 				<li class="contact"><a href="/contact/"><span><i class="fas fa-envelope"></i>CONTACT</span></a></li>
 			</ul>
 		</div>

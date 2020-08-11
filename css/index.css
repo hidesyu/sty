@@ -3,13 +3,17 @@
  index.css
 
 ----------------------------------------------------------------------------- */
+#wrapper {
+  margin-top: -32px;
+}
+
 #header .logo {
   top: 24px;
 }
 #header .logo a {
   width: 115px;
   height: 131px;
-  background-image: url("../img/common/logo01.svg");
+  background-image: url("../img/common/logo01.png");
 }
 
 .splash .bg {
@@ -231,8 +235,17 @@
 
 #about {
   z-index: 2;
-  background-image: url("../img/index/main.jpg")
+  background-image: url("../img/index/main.jpg");
+  background-position: center;
 }
+
+@media screen and (max-width: 1000px) {
+  #about {
+    height: 438px;
+    background-image: url("../img/index/main-sp.jpg");
+  }
+}
+
 #about .paperplane {
   position: absolute;
   top: 300px;
@@ -1089,8 +1102,17 @@
 
 #works {
   z-index: 2;
-  /* background-image: url("../img/index/works.jpg") */
+  background-image: url("../img/index/works.jpg");
+  background-position: center;
 }
+
+@media screen and (max-width: 1000px) {
+  #works {
+    height: 480px;
+    background-image: url("../img/index/works-sp.jpg");
+  }
+}
+
 #works .box {
   width: 40%;
   padding: 290px 60px 488px;
@@ -1124,8 +1146,8 @@
 }
 #gallery ul li img {
   width: auto;
-  height: 120px;
-  width: 190px;
+  height: 100px;
+  width: 120px;
 }
 
 #contact {
@@ -1566,7 +1588,7 @@
   #header .logo a {
     width: 146px;
     height: 48px;
-    background-image: url("../img/common/logo02.svg");
+    background-image: url("../img/common/logo02.png");
   }
 
   .splash .paperplane {
@@ -1636,7 +1658,7 @@
     max-width: 335px;
     margin: 0 auto;
     float: none;
-    padding: 295px 10px 50px;
+    padding: 160px 10px 50px;
   }
   #about .box:before {
     display: none;
@@ -1769,7 +1791,7 @@
     padding: 0 0 50px;
   }
   #works .box {
-    padding: 350px 0 250px;
+    padding: 200px 0 250px;
     width: auto;
     float: none;
   }
