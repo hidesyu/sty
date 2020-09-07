@@ -77,5 +77,9 @@
 
 </div><!--/#wrapper-->
 
+<!--ページjs-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script src="<?php echo get_theme_file_uri( '/js/contact.js') ?>"></script>
+
 </body>
 </html>

@@ -3,6 +3,12 @@
  contact.css
 
 ----------------------------------------------------------------------------- */
+
+#contact-form .error {
+  color: red;
+  font-weight: bold;
+}
+
 .illustMain {
   top: 80px;
   margin: 0 0 0 430px;

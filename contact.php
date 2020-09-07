@@ -24,7 +24,8 @@ Template Name: CONTACT
 	<section id="formContact" class="section">
 		<div class="inner">
 
-			<form method="post" action="./">
+			<form method="post" action="/send-mail" id="contact-form">
+
 			<input type="hidden" name="action" value="confirm" />
 			<input type="hidden" name="token" value="2d95111f0c67fef9d1ca7dc97f53c052" />
 
@@ -48,26 +49,19 @@ Template Name: CONTACT
 					<div class="formGroupDetail">
 						<div class="checkBoxWrap">
 							<div class="checkBox">
-								<input type="checkbox" name="contact_check[1]" value="1" id="formContactType01"  >
+								<input type="checkbox" name="contact_types[]" value="1" id="formContactType01">
 								<label for="formContactType01">お見積りのご依頼</label>
 							</div>
 							<div class="checkBox">
-								<input type="checkbox" name="contact_check[2]" value="2" id="formContactType02"  >
+								<input type="checkbox" name="contact_types[]" value="2" id="formContactType02">
 								<label for="formContactType02">サービスに関するお問い合わせ</label>
 							</div>
 							<div class="checkBox">
-								<input type="checkbox" name="contact_check[3]" value="3" id="formContactType03"  >
+								<input type="checkbox" name="contact_types[]" value="3" id="formContactType03">
 								<label for="formContactType03">その他のお問い合わせ</label>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="formGroup">
-					<div class="formGroupTitle">
-						<label for="formCompany">会社名<span class="required">必須</span></label>
-					</div>
-					<div class="formGroupDetail">
-						<input type="text" id="company_name" name="company_name" value="">
+						<div class="checkBoxError"></div>
 					</div>
 				</div>
 				<div class="formGroup">
@@ -75,12 +69,7 @@ Template Name: CONTACT
 						<label for="formFirstName" >お名前<span class="required">必須</span></label>
 					</div>
 					<div class="formGroupDetail">
-						<div class="formName">
-							<input type="text" id="name_sei" name="name_sei" value="" placeholder="姓">
-						</div>
-						<div class="formName">
-							<input type="text" id="name_mei" name="name_mei" value="" placeholder="名">
-						</div>
+						<input type="text" id="name" name="full_name" value="">
 					</div>
 				</div>
 				<div class="formGroup">
@@ -93,7 +82,7 @@ Template Name: CONTACT
 				</div>
 				<div class="formGroup">
 					<div class="formGroupTitle">
-						<label for="formPhone">電話番号（半角）<span class="required">必須</span></label>
+						<label for="formPhone">電話番号（半角）<span>任意</span></label>
 					</div>
 					<div class="formGroupDetail">
 						<input type="tel" id="tel" name="tel"  value="">

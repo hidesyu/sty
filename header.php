@@ -61,7 +61,6 @@
 <?php if ( is_page( 'contact' ) ): ?>
 <!--ページjs-->
 <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB" charset="UTF-8"></script> -->
-<script src="<?php echo get_theme_file_uri( '/js/contact.js') ?>"></script>
 <!--ページcss-->
 <link rel="stylesheet" href="<?php echo get_theme_file_uri( '/css/contact.css') ?>">
 <?php endif; ?>
