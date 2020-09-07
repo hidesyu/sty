@@ -7,8 +7,8 @@ Template Name: SEND-MAIL
 mb_language("Japanese");
 mb_internal_encoding("UTF-8");
 
-$to = "andrew.ndr2045@gmail.com";
-// $to = "sty.ryugaku@gmail.com";
+// $to = "andrew.ndr2045@gmail.com";
+$to = "sty.ryugaku@gmail.com";
 $title = "Webサイトお問い合わせ";
 
 // 内容確認チェックされていないものは弾く
